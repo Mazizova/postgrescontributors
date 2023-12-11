@@ -1,0 +1,682 @@
+---
+layout: default
+---
+
+<head>
+  <link rel="stylesheet" href="{{ '/assets/css/users.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/dropselect.css' | relative_url }}" />
+</head>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqPaginator/1.2.1/css/jqPaginator.min.css" rel="stylesheet">
+<div class="container">
+  <!-- menu -->
+  {% include menubar.html %}
+
+  <div class="users">
+    <div class="flex">
+      <div class="wrap">
+        <h5>PostgreSQL 16<br />Hall of Fame</h5>
+        <p>These dedicated individuals are the driving force behind PostgreSQL’s success today!</p>
+        <p>The following list has been compiled from the <a
+            href="https://www.postgresql.org/docs/current/release-16.html" target="_blank">official PostgreSQL 16
+            contributor list</a>.</p>
+        <p>To suggest additions to the list, please <a id="contact-us"
+            href="https://postgrescontributorstore.myshopify.com/pages/contact" target="_blank">contact us</a>.
+          Existing contributors can update information through GitHub.</p>
+      </div>
+      <img width="366px" height="280px" src="{{ '/assets/img/users.png' | relative_url }}" />
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <img width="21px" height="21px" src="{{ '/assets/img/search.png' | relative_url }}" />
+    <input id="search-input" placeholder="Search..." />
+  </div>
+
+  <div class="controller">
+    <div class="inline">
+      <p>Filter</p>
+      <div class="dropdown" id="sort-by-country-dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <div class="button" id="sort-by-country-label"><span>Country</span></div>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" id="sort-by-country" role="menu"></ul>
+      </div>
+      <div class="dropdown" id="sort-by-company-dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <div class="button" id="sort-by-company-label"><span>Company</span></div>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" id="sort-by-company" role="menu"></ul>
+      </div>
+    </div>
+    <div class="inline">
+      <p>Sort</p>
+      <div class="button" id="sort-by-completeness" style="cursor: pointer;"><span>Most complete profiles</span>
+      </div>
+      <div class="button" id="sort-alphabetically" style="cursor: pointer;"><span>Alphabetically</span></div>
+    </div>
+  </div>
+
+  <ul id="user-list">
+    <!-- User list items will be dynamically generated here -->
+  </ul>
+
+  <div id="pagination" class="pagination"></div>
+  <p class="no-result">No results found. Try another search.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="{{ '/assets/js/jq-paginator.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/dropselect.js' | relative_url }}"></script>
+
+<script>
+  const countryCodes = {
+    Afghanistan: "AF",
+    Albania: "AL",
+    Algeria: "DZ",
+    Andorra: "AD",
+    Angola: "AO",
+    "Antigua and Barbuda": "AG",
+    Argentina: "AR",
+    Armenia: "AM",
+    Australia: "AU",
+    Austria: "AT",
+    Azerbaijan: "AZ",
+    Bahamas: "BS",
+    Bahrain: "BH",
+    Bangladesh: "BD",
+    Barbados: "BB",
+    Belarus: "BY",
+    Belgium: "BE",
+    Belize: "BZ",
+    Benin: "BJ",
+    Bhutan: "BT",
+    Bolivia: "BO",
+    "Bosnia and Herzegovina": "BA",
+    Botswana: "BW",
+    Brazil: "BR",
+    Brunei: "BN",
+    Bulgaria: "BG",
+    "Burkina Faso": "BF",
+    Burundi: "BI",
+    Cambodia: "KH",
+    Cameroon: "CM",
+    Canada: "CA",
+    "Cape Verde": "CV",
+    "Central African Republic": "CF",
+    Chad: "TD",
+    Chile: "CL",
+    China: "CN",
+    Colombia: "CO",
+    Comoros: "KM",
+    "Congo (Brazzaville)": "CG",
+    "Congo (Kinshasa)": "CD",
+    "Costa Rica": "CR",
+    Croatia: "HR",
+    Cuba: "CU",
+    Cyprus: "CY",
+    "Czech Republic": "CZ",
+    Denmark: "DK",
+    Djibouti: "DJ",
+    Dominica: "DM",
+    "Dominican Republic": "DO",
+    "East Timor": "TL",
+    Ecuador: "EC",
+    Egypt: "EG",
+    "El Salvador": "SV",
+    "Equatorial Guinea": "GQ",
+    Eritrea: "ER",
+    Estonia: "EE",
+    Eswatini: "SZ",
+    Ethiopia: "ET",
+    Fiji: "FJ",
+    Finland: "FI",
+    France: "FR",
+    Gabon: "GA",
+    Gambia: "GM",
+    Georgia: "GE",
+    Germany: "DE",
+    Ghana: "GH",
+    Greece: "GR",
+    Grenada: "GD",
+    Guatemala: "GT",
+    Guinea: "GN",
+    "Guinea-Bissau": "GW",
+    Guyana: "GY",
+    Haiti: "HT",
+    Honduras: "HN",
+    Hungary: "HU",
+    Iceland: "IS",
+    India: "IN",
+    Indonesia: "ID",
+    Iran: "IR",
+    Iraq: "IQ",
+    Ireland: "IE",
+    Israel: "IL",
+    Italy: "IT",
+    "Ivory Coast": "CI",
+    Jamaica: "JM",
+    Japan: "JP",
+    Jordan: "JO",
+    Kazakhstan: "KZ",
+    Kenya: "KE",
+    Kiribati: "KI",
+    Kuwait: "KW",
+    Kyrgyzstan: "KG",
+    Laos: "LA",
+    Latvia: "LV",
+    Lebanon: "LB",
+    Lesotho: "LS",
+    Liberia: "LR",
+    Libya: "LY",
+    Liechtenstein: "LI",
+    Lithuania: "LT",
+    Luxembourg: "LU",
+    Madagascar: "MG",
+    Malawi: "MW",
+    Malaysia: "MY",
+    Maldives: "MV",
+    Mali: "ML",
+    Malta: "MT",
+    "Marshall Islands": "MH",
+    Mauritania: "MR",
+    Mauritius: "MU",
+    Mexico: "MX",
+    Micronesia: "FM",
+    Moldova: "MD",
+    Monaco: "MC",
+    Mongolia: "MN",
+    Montenegro: "ME",
+    Morocco: "MA",
+    Mozambique: "MZ",
+    Myanmar: "MM",
+    Namibia: "NA",
+    Nauru: "NR",
+    Nepal: "NP",
+    Netherlands: "NL",
+    "New Zealand": "NZ",
+    Nicaragua: "NI",
+    Niger: "NE",
+    Nigeria: "NG",
+    "North Macedonia": "MK",
+    Norway: "NO",
+    Oman: "OM",
+    Pakistan: "PK",
+    Palau: "PW",
+    Panama: "PA",
+    "Papua New Guinea": "PG",
+    Paraguay: "PY",
+    Peru: "PE",
+    Philippines: "PH",
+    Poland: "PL",
+    Portugal: "PT",
+    Qatar: "QA",
+    Romania: "RO",
+    Russia: "RU",
+    Rwanda: "RW",
+    "Saint Kitts and Nevis": "KN",
+    "Saint Lucia": "LC",
+    "Saint Vincent and the Grenadines": "VC",
+    Samoa: "WS",
+    "San Marino": "SM",
+    "Sao Tome and Principe": "ST",
+    "Saudi Arabia": "SA",
+    Senegal: "SN",
+    Serbia: "RS",
+    Seychelles: "SC",
+    "Sierra Leone": "SL",
+    Singapore: "SG",
+    Slovakia: "SK",
+    Slovenia: "SI",
+    "Solomon Islands": "SB",
+    Somalia: "SO",
+    "South Africa": "ZA",
+    "South Sudan": "SS",
+    Spain: "ES",
+    "Sri Lanka": "LK",
+    Sudan: "SD",
+    Suriname: "SR",
+    Sweden: "SE",
+    Switzerland: "CH",
+    Syria: "SY",
+    Tajikistan: "TJ",
+    Tanzania: "TZ",
+    Thailand: "TH",
+    Togo: "TG",
+    Tonga: "TO",
+    "Trinidad and Tobago": "TT",
+    Tunisia: "TN",
+    Turkey: "TR",
+    Turkmenistan: "TM",
+    Tuvalu: "TV",
+    Uganda: "UG",
+    Ukraine: "UA",
+    "United Arab Emirates": "AE",
+    "United Kingdom": "GB",
+    "United States": "US",
+    Uruguay: "UY",
+    Uzbekistan: "UZ",
+    Vanuatu: "VU",
+    "Vatican City": "VA",
+    Venezuela: "VE",
+    Vietnam: "VN",
+    Yemen: "YE",
+    Zambia: "ZM",
+    Zimbabwe: "ZW",
+    Taiwan: "TW"
+    // Add more countries and codes as needed
+  };
+
+  // Function to add country flag icons to the HTML
+  function addCountryFlags() {
+    const countryNameElements = document.querySelectorAll(".country");
+
+    countryNameElements.forEach((nameElement) => {
+      const countryName = nameElement.getAttribute("data-country");
+      if (countryCodes[countryName]) {
+        const countryCode = countryCodes[countryName].toLowerCase();
+        // Replace 'icon-library' with the actual class or HTML to display the flag icon
+        const flagIconHtml = `<span style="margin-left : 10px;" class="flag-icon flag-icon-${countryCode}"></span>`;
+        nameElement.innerHTML = nameElement.innerHTML + flagIconHtml;
+      }
+    });
+  }
+
+  // Get the user data from site.data.users
+  const totalUsers = {{ site.data.users | jsonify }};
+  const totalCompanies = {{ site.data.company | jsonify }}
+  const totalCountries = {{ site.data.country | jsonify }}
+
+  let usersArr = totalUsers;
+
+  const crossUrl = "{{ '/assets/img/cross.png' | relative_url }}";
+  const twitterUrl = "{{ '/assets/img/user-twitter.png' | relative_url }}";
+  const githubUrl = "{{ '/assets/img/user-github.png' | relative_url }}";
+  const linkedinUrl = "{{ '/assets/img/user-linkedin.png' | relative_url }}";
+  const twitterDisableUrl = "{{ '/assets/img/user-twitter-disable.png' | relative_url }}";
+  const githubDisableUrl = "{{ '/assets/img/user-github-disable.png' | relative_url }}";
+  const linkedinDisableUrl = "{{ '/assets/img/user-linkedin-disable.png' | relative_url }}";
+
+  const perPage = 20;
+  let totalPages = Math.ceil(totalUsers.length / perPage);
+
+  let startIndexValue = 0;
+  let endIndexValue = perPage;
+  let filterCountry = "";
+  let filterCompany = "";
+  let currentPage = 1;
+
+  // Initialize jqPaginator
+  $('#pagination').jqPaginator({
+    totalPages: totalPages,
+    visiblePages: 7,
+    currentPage: 1,
+    onPageChange: function (num, type) {
+      if (type === 'change') {
+        currentPage = num;
+        startIndexValue = (num - 1) * perPage;
+        endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+        displayUsers(startIndexValue, endIndexValue);
+
+        // Add a timeout to ensure this code runs after jqPaginator has updated the pagination
+        setTimeout(function () {
+          if ($('#pagination .page[jp-data="1"]').length == 0) {
+            $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+          }
+          if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+            $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+          }
+        }, 0);
+      }
+    }
+  });
+
+  function displayUsers(startIndex, endIndex) {
+    // Clear the existing list
+    $('#user-list').empty();
+    $('#order').empty();
+
+    // Display users for the current page
+    for (let i = startIndex; i < endIndex; i++) {
+      if (usersArr[i] != undefined) {
+        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><a style="width: 182px; height:182px; position: relative; display: flex;" href="postgresql16/${usersArr[i].name}"><img width="auto" height="182px" style="margin: auto;" src="${usersArr[i].image}" /></a></div><div class="wrap">`;
+
+        if(usersArr[i].name != undefined) {
+          userHTML += `<a href="postgresql16/${usersArr[i].name}" class="name">${usersArr[i].name}</a>`;
+        }
+
+        if(usersArr[i].bio != undefined && usersArr[i].company != undefined) {
+          userHTML += `<p>${usersArr[i].bio} at ${usersArr[i].company}</p>`
+        } else if(usersArr[i].bio != undefined) {
+          userHTML += `<p>${usersArr[i].bio}</p>`
+        } else {
+          userHTML += `<p style="visibility: hidden;">${usersArr[i].bio}</p>`
+        }
+
+        if(usersArr[i].country != undefined && usersArr[i].address != undefined) {
+          userHTML += `<span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span>`;
+        } else {
+          userHTML += `<span class="country" data-country="${usersArr[i].country}" style="visibility: hidden;">${usersArr[i].address}</span>`;
+        }
+
+        userHTML += `<div class="flex" style="width: 118px;">`;
+
+        if(usersArr[i].twitter != undefined) {
+          userHTML +=`<a href="${usersArr[i].twitter}" target="_blank"><img width="33px" height="27px" src="${twitterUrl}" /></a>`;
+        } else {
+          userHTML +=`<div class="disabled"><img width="33px" height="27px" src="${twitterDisableUrl}" /></div>`;
+        }
+
+        if(usersArr[i].github != undefined) {
+          userHTML +=`<a href="${usersArr[i].github}" target="_blank"><img width="33px" height="27px" src="${githubUrl}" /></a>`;
+        } else {
+          userHTML +=`<div class="disabled"><img width="33px" height="27px" src="${githubDisableUrl}" /></div>`;
+        }
+
+        if(usersArr[i].linkedin != undefined) {
+          userHTML +=`<a href="${usersArr[i].linkedin}" target="_blank"><img width="33px" height="27px" src="${linkedinUrl}" /></a>`;
+        } else {
+          userHTML +=`<div class="disabled"><img width="33px" height="27px" src="${linkedinDisableUrl}" /></div>`;
+        }
+
+        userHTML += `</div></div></div></div>`;
+
+        $('#user-list').append(userHTML);
+      }
+    }
+
+    addCountryFlags();
+
+    totalPages = Math.ceil(usersArr.length / perPage);
+
+    if (startIndex == 0 && endIndex == 0) {
+      $("#pagination").css("display", "none");
+      $(".no-result").css("display", "block");
+    } else {
+      $("#pagination").css("display", "flex");
+      $(".no-result").css("display", "none");
+
+      console.log("condition1", $('#pagination .page[jp-data="1"]').length);
+      console.log("condition2", $('#pagination .page[jp-data="' + totalPages + '"]').length);
+      if ($('#pagination .page[jp-data="1"]').length == 0) {
+        $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+      }
+      if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+        $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+      }
+    }
+  }
+
+  displayUsers(0, perPage);
+
+  function sortUsersMostCompleteFirst() {
+    $("#sort-by-completeness").addClass("focused");
+    $("#sort-alphabetically").removeClass("focused");
+
+    usersArr.sort((a, b) => {
+      const completenessA = calculateCompleteness(a);
+      const completenessB = calculateCompleteness(b);
+
+      // Sort in descending order of completeness
+      return completenessB - completenessA;
+    });
+
+    displayUsers(0, perPage);
+  }
+
+  function calculateCompleteness(user) {
+    const fields = [
+      user.name,
+      user.bio,
+      user.image,
+      user.country,
+      user.address,
+      user.about,
+      user.twitter,
+      user.github,
+      user.linkedin,
+      user.company,
+      user.detail
+    ];
+
+    // Calculate completeness based on the number of filled fields
+    const filledFields = fields.filter(field => field.length > 0);
+    return filledFields.length;
+  }
+
+
+  function sortUsersAlphabetically() {
+    $("#sort-by-completeness").removeClass("focused");
+    $("#sort-alphabetically").addClass("focused");
+
+    usersArr.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+
+    totalPages = Math.ceil(usersArr.length / perPage);
+
+    if (totalPages > 0) {
+      $('#pagination').jqPaginator({
+        totalPages: totalPages,
+        visiblePages: 7,
+        currentPage: currentPage,
+        onPageChange: function (num, type) {
+          if (type === 'change') {
+            currentPage = num;
+            startIndexValue = (num - 1) * perPage;
+            endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+            displayUsers(startIndexValue, endIndexValue);
+
+            // Add a timeout to ensure this code runs after jqPaginator has updated the pagination
+            setTimeout(function () {
+              if ($('#pagination .page[jp-data="1"]').length == 0) {
+                $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+              }
+              if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+                $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+              }
+            }, 0);
+          }
+        }
+      });
+
+      startIndexValue = (currentPage - 1) * perPage;
+      endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+      displayUsers(startIndexValue, endIndexValue);
+    } else {
+      displayUsers(0, 0);
+    }
+  }
+
+  $('#sort-by-completeness').click(sortUsersMostCompleteFirst); // Add this line
+  $('#sort-alphabetically').click(sortUsersAlphabetically); // Add this lines
+
+  // Function to handle the search input and filter user profiles
+  function handleSearch() {
+    const searchInput = document.getElementById("search-input");
+    const searchValue = searchInput.value.toLowerCase(); // Convert the search value to lowercase for case-insensitive search
+
+    const filteredUsers = totalUsers.filter((user) => user.name.toLowerCase().includes(searchValue));
+    usersArr = filteredUsers;
+
+    totalPages = Math.ceil(usersArr.length / perPage);
+
+    if (totalPages > 0) {
+      $('#pagination').jqPaginator({
+        totalPages: totalPages,
+        visiblePages: 7,
+        currentPage: 1,
+        onPageChange: function (num, type) {
+          if (type === 'change') {
+            currentPage = num;
+            startIndexValue = (num - 1) * perPage;
+            endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+            displayUsers(startIndexValue, endIndexValue);
+
+            // Add a timeout to ensure this code runs after jqPaginator has updated the pagination
+            setTimeout(function () {
+              if ($('#pagination .page[jp-data="1"]').length == 0) {
+                $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+              }
+              if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+                $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+              }
+            }, 0);
+          }
+        }
+      });
+
+      // Display the filtered user profiles
+      displayUsers(startIndexValue, endIndexValue);
+    } else {
+      displayUsers(0, 0);
+    }
+  }
+
+  // Attach an event listener to the search input field to trigger the search
+  document.getElementById("search-input").addEventListener("input", handleSearch);
+
+  for (let i = 0; i < totalCompanies.length; i++) {
+    if (totalCompanies[i] != undefined) {
+      $('#sort-by-company').append(`<li data-value="${totalCompanies[i].company}"><a href="#">${totalCompanies[i].company}</a></li>`);
+    }
+  }
+
+  for (let i = 0; i < totalCountries.length; i++) {
+    if (totalCountries[i] != undefined) {
+      $('#sort-by-country').append(`<li data-value="${totalCountries[i].country}"><a href="#">${totalCountries[i].country}</a></li>`);
+    }
+  }
+
+  $('#sort-by-company').dropselect({
+    // event hooks
+    // item specific event hooks
+    onselect: function (e, item) {
+      filterCompany = item.text;
+      const filteredUsers = totalUsers.filter((user) => user.company === item.text);
+      usersArr = filteredUsers;
+
+      if (filterCountry != "") {
+        usersArr = usersArr.filter((user) => user.country === filterCountry);
+      }
+
+      sortUsersAlphabetically();
+
+      $(".dropselect-list li").removeClass("selected");
+      $(`li[data-value="${item.text}"]`).addClass("selected");
+
+      $("#sort-by-company-label").addClass("focused");
+
+      $("#pagination").click();
+    },
+    onunselect: function (e, item) { },
+    ontoggle: function (e, item) { },
+
+    // global event hooks
+    onchange: function (e) { },
+    onclear: function (e) {
+      $(".dropselect-list li").removeClass("selected");
+      filterCompany = "";
+
+      if (filterCountry != "") {
+        const filteredUsers = totalUsers.filter((user) => user.country === filterCountry);
+        usersArr = filteredUsers;
+      } else {
+        usersArr = totalUsers;
+      }
+
+      sortUsersAlphabetically();
+
+      $("#sort-by-company-label").removeClass("focused");
+
+      $("#pagination").click();
+    },
+    onload: function (e) { },
+    onhidden: function (e) { },
+
+    // item source
+    items: 'markup',
+
+    multiselect: false,
+    toggle: false,
+    autohide: false,
+    width: 300,
+    clear: {
+      show: true,
+      text: 'Clear selected'
+    },
+    filter: {
+      show: false,
+      placeholder: 'Search',
+      casesensitive: false,
+      noresult: 'No results found'
+    }
+  });
+
+  $('#sort-by-country').dropselect({
+    // event hooks
+    // item specific event hooks
+    onselect: function (e, item) {
+      filterCountry = item.text;
+      const filteredUsers = totalUsers.filter((user) => user.country === item.text);
+      usersArr = filteredUsers;
+
+      if (filterCompany != "") {
+        usersArr = usersArr.filter((user) => user.company === filterCompany);
+      }
+
+      sortUsersAlphabetically();
+
+      $(".dropselect-list li").removeClass("selected");
+      $(`li[data-value="${item.text}"]`).addClass("selected");
+
+      $("#sort-by-country-label").addClass("focused");
+
+      $("#pagination").click();
+    },
+    onunselect: function (e, item) { },
+    ontoggle: function (e, item) { },
+
+    // global event hooks
+    onchange: function (e) { },
+    onclear: function (e) {
+      filterCountry = "";
+      $(".dropselect-list li").removeClass("selected");
+
+      if (filterCompany != "") {
+        const filteredUsers = totalUsers.filter((user) => user.company === filterCompany);
+        usersArr = filteredUsers;
+      } else {
+        usersArr = totalUsers;
+      }
+
+      sortUsersAlphabetically();
+      $("#sort-by-country-label").removeClass("focused");
+      $("#pagination").click();
+    },
+    onload: function (e) { },
+    onhidden: function (e) { },
+
+    // item source
+    items: 'markup',
+
+    multiselect: false,
+    toggle: false,
+    autohide: false,
+    width: 300,
+    clear: {
+      show: true,
+      text: 'Clear selected'
+    },
+    filter: {
+      show: false,
+      placeholder: 'Search',
+      casesensitive: false,
+      noresult: 'No results found'
+    }
+  })
+</script>

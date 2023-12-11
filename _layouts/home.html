@@ -1,0 +1,363 @@
+---
+layout: default
+---
+
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}" />
+</head>
+<div class="container">
+    <!-- menu -->
+    {% include menubar.html %}
+
+    <div class="welcome">
+        <div class="content">
+            <p class="bold">
+                Thank You for Being a Contributing Developer to PostgreSQL 16!
+            </p>
+            <p class="normal">
+                Your ideas, insights, and code have shaped PostgreSQL into what it is
+                today.
+            </p>
+            <p class="normal">
+                FerretDB proudly sponsors the <a href="https://postgrescontributors.com/postgresql16"
+                    target="_blank">PostgreSQL 16 Contributors Hall of Fame</a>. As a gesture of appreciation,
+                FerretDB is offering a reward to all the contributors who made this release possible.
+            </p>
+        </div>
+        <img class="elephant" src="{{ '/assets/img/elephant.png' | relative_url }}" />
+    </div>
+
+    <div class="featured">
+        <p class="title">Featured Contributors</p>
+        <div class="owl-carousel owl-theme">
+            {% for user in site.data.carousel %}
+            <div class="item">
+                <div class="avatar">
+                    <a href="postgresql16/{{ user.name }}">
+                        <img src="{{ user.image | relative_url }}" alt="{{ user.name }}" width="266px" height="283px" />
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="postgresql16/{{ user.name }}">{{ user.name }}</a>
+                    <p>{{ user.bio }}</p>
+                    <span class="country">{{ user.country }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="button">
+        <a href="postgresql16">View all contributors</a>
+    </div>
+
+    <div class="function">
+        <div class="content">
+            <h5>A diverse and talented group of 362 contributors have shared their time, knowledge, and skills to bring
+                enhancement to PostgreSQL 16. </h5>
+
+            <p>At PostgreSQLContributors, we recognize the community impact on the development of the world’s most
+                advanced open source relational database. We look forward to continuing this journey with you and
+                creating even greater milestones in the PostgreSQL ecosystem.</p>
+
+            <p>On this website, you can:</p>
+
+            <div class="flex" style="margin-top: 35px;">
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon1.png' | relative_url }}" />
+                    <a href="https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Manage
+                        your contributor profile</a>
+                </div>
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon2.png' | relative_url }}" />
+                    <a href="https://postgrescontributorstore.myshopify.com" target="_blank" class="icon-content">Claim
+                        your contributor reward</a>
+                </div>
+            </div>
+            <div class="flex" style="margin-top: 35px;">
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon3.png' | relative_url }}" />
+                    <a href=" https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Find
+                        other contributors for networking</a>
+                </div>
+            </div>
+
+            <div class="mobile" style="margin-top: 15px;">
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon1.png' | relative_url }}" />
+                    <a href="https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Manage
+                        your contributor profile</a>
+                </div>
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon2.png' | relative_url }}" />
+                    <a href="https://postgrescontributorstore.myshopify.com" class="icon-content">Claim your contributor
+                        reward</a>
+                </div>
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon3.png' | relative_url }}" />
+                    <a href=" https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Find
+                        other contributors for networking</a>
+                </div>
+            </div>
+        </div>
+        <img width="402px" height="331.2px" src="{{ '/assets/img/QQ2.png' | relative_url }}" />
+    </div>
+
+    <div class="reward">
+        <div class="flex">
+            <div>
+                <h5>Get Your Contributor<br />Reward 🎁</h5>
+                <p>To celebrate the release of PostgreSQL 16, all contributors will receive a free personalized t-shirt!
+                </p>
+                <span>Wear it proudly as a symbol of your dedication and valued contribution to the development of
+                    Postgres.</span>
+            </div>
+            <img width="auto" height="390px" src="{{ site.logos.product_logo | relative_url }}" />
+        </div>
+    </div>
+
+    <div class="button">
+        <a href="https://postgrescontributorstore.myshopify.com/" target="_blank">Get your FREE T-Shirt!</a>
+    </div>
+</div>
+
+<script>
+    $.noConflict();
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            items: 3,
+            margin: 10,
+            loop: true,
+            nav: true,
+            dots: false,
+            autoplay: false, // Enable auto-sliding
+            autoplayTimeout: 3000, // Auto-slide interval in milliseconds
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 3,
+                },
+                1000: {
+                    items: 3,
+                },
+            },
+        });
+
+        const countryCodes = {
+            Afghanistan: "AF",
+            Albania: "AL",
+            Algeria: "DZ",
+            Andorra: "AD",
+            Angola: "AO",
+            "Antigua and Barbuda": "AG",
+            Argentina: "AR",
+            Armenia: "AM",
+            Australia: "AU",
+            Austria: "AT",
+            Azerbaijan: "AZ",
+            Bahamas: "BS",
+            Bahrain: "BH",
+            Bangladesh: "BD",
+            Barbados: "BB",
+            Belarus: "BY",
+            Belgium: "BE",
+            Belize: "BZ",
+            Benin: "BJ",
+            Bhutan: "BT",
+            Bolivia: "BO",
+            "Bosnia and Herzegovina": "BA",
+            Botswana: "BW",
+            Brazil: "BR",
+            Brunei: "BN",
+            Bulgaria: "BG",
+            "Burkina Faso": "BF",
+            Burundi: "BI",
+            Cambodia: "KH",
+            Cameroon: "CM",
+            Canada: "CA",
+            "Cape Verde": "CV",
+            "Central African Republic": "CF",
+            Chad: "TD",
+            Chile: "CL",
+            China: "CN",
+            Colombia: "CO",
+            Comoros: "KM",
+            "Congo (Brazzaville)": "CG",
+            "Congo (Kinshasa)": "CD",
+            "Costa Rica": "CR",
+            Croatia: "HR",
+            Cuba: "CU",
+            Cyprus: "CY",
+            "Czech Republic": "CZ",
+            Denmark: "DK",
+            Djibouti: "DJ",
+            Dominica: "DM",
+            "Dominican Republic": "DO",
+            "East Timor": "TL",
+            Ecuador: "EC",
+            Egypt: "EG",
+            "El Salvador": "SV",
+            "Equatorial Guinea": "GQ",
+            Eritrea: "ER",
+            Estonia: "EE",
+            Eswatini: "SZ",
+            Ethiopia: "ET",
+            Fiji: "FJ",
+            Finland: "FI",
+            France: "FR",
+            Gabon: "GA",
+            Gambia: "GM",
+            Georgia: "GE",
+            Germany: "DE",
+            Ghana: "GH",
+            Greece: "GR",
+            Grenada: "GD",
+            Guatemala: "GT",
+            Guinea: "GN",
+            "Guinea-Bissau": "GW",
+            Guyana: "GY",
+            Haiti: "HT",
+            Honduras: "HN",
+            Hungary: "HU",
+            Iceland: "IS",
+            India: "IN",
+            Indonesia: "ID",
+            Iran: "IR",
+            Iraq: "IQ",
+            Ireland: "IE",
+            Israel: "IL",
+            Italy: "IT",
+            "Ivory Coast": "CI",
+            Jamaica: "JM",
+            Japan: "JP",
+            Jordan: "JO",
+            Kazakhstan: "KZ",
+            Kenya: "KE",
+            Kiribati: "KI",
+            Kuwait: "KW",
+            Kyrgyzstan: "KG",
+            Laos: "LA",
+            Latvia: "LV",
+            Lebanon: "LB",
+            Lesotho: "LS",
+            Liberia: "LR",
+            Libya: "LY",
+            Liechtenstein: "LI",
+            Lithuania: "LT",
+            Luxembourg: "LU",
+            Madagascar: "MG",
+            Malawi: "MW",
+            Malaysia: "MY",
+            Maldives: "MV",
+            Mali: "ML",
+            Malta: "MT",
+            "Marshall Islands": "MH",
+            Mauritania: "MR",
+            Mauritius: "MU",
+            Mexico: "MX",
+            Micronesia: "FM",
+            Moldova: "MD",
+            Monaco: "MC",
+            Mongolia: "MN",
+            Montenegro: "ME",
+            Morocco: "MA",
+            Mozambique: "MZ",
+            Myanmar: "MM",
+            Namibia: "NA",
+            Nauru: "NR",
+            Nepal: "NP",
+            Netherlands: "NL",
+            "New Zealand": "NZ",
+            Nicaragua: "NI",
+            Niger: "NE",
+            Nigeria: "NG",
+            "North Macedonia": "MK",
+            Norway: "NO",
+            Oman: "OM",
+            Pakistan: "PK",
+            Palau: "PW",
+            Panama: "PA",
+            "Papua New Guinea": "PG",
+            Paraguay: "PY",
+            Peru: "PE",
+            Philippines: "PH",
+            Poland: "PL",
+            Portugal: "PT",
+            Qatar: "QA",
+            Romania: "RO",
+            Russia: "RU",
+            Rwanda: "RW",
+            "Saint Kitts and Nevis": "KN",
+            "Saint Lucia": "LC",
+            "Saint Vincent and the Grenadines": "VC",
+            Samoa: "WS",
+            "San Marino": "SM",
+            "Sao Tome and Principe": "ST",
+            "Saudi Arabia": "SA",
+            Senegal: "SN",
+            Serbia: "RS",
+            Seychelles: "SC",
+            "Sierra Leone": "SL",
+            Singapore: "SG",
+            Slovakia: "SK",
+            Slovenia: "SI",
+            "Solomon Islands": "SB",
+            Somalia: "SO",
+            "South Africa": "ZA",
+            "South Sudan": "SS",
+            Spain: "ES",
+            "Sri Lanka": "LK",
+            Sudan: "SD",
+            Suriname: "SR",
+            Sweden: "SE",
+            Switzerland: "CH",
+            Syria: "SY",
+            Tajikistan: "TJ",
+            Tanzania: "TZ",
+            Thailand: "TH",
+            Togo: "TG",
+            Tonga: "TO",
+            "Trinidad and Tobago": "TT",
+            Tunisia: "TN",
+            Turkey: "TR",
+            Turkmenistan: "TM",
+            Tuvalu: "TV",
+            Uganda: "UG",
+            Ukraine: "UA",
+            "United Arab Emirates": "AE",
+            "United Kingdom": "GB",
+            "United States": "US",
+            Uruguay: "UY",
+            Uzbekistan: "UZ",
+            Vanuatu: "VU",
+            "Vatican City": "VA",
+            Venezuela: "VE",
+            Vietnam: "VN",
+            Yemen: "YE",
+            Zambia: "ZM",
+            Zimbabwe: "ZW",
+            Taiwan: "TW"
+            // Add more countries and codes as needed
+        };
+
+        // Function to add country flag icons to the HTML
+        function addCountryFlags() {
+            const countryNameElements = document.querySelectorAll(".country");
+
+            countryNameElements.forEach((nameElement) => {
+                const countryName = nameElement.textContent.trim();
+                if (countryCodes[countryName]) {
+                    const countryCode = countryCodes[countryName].toLowerCase();
+                    // Replace 'icon-library' with the actual class or HTML to display the flag icon
+                    const flagIconHtml = `<span style="margin-left : 10px;" class="flag-icon flag-icon-${countryCode}"></span>`;
+                    nameElement.innerHTML = nameElement.innerHTML + flagIconHtml;
+                }
+            });
+        }
+
+        // Call the function to populate the country flag icons
+        addCountryFlags();
+    });
+</script>

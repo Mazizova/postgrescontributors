@@ -1,0 +1,9 @@
+title: Your Website's Title
+description: A brief description of your website.
+baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: ""
+url: "http://postgrescontributors.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+logos:
+  product_logo: "/assets/img/unisex-staple-t-shirt-black-heather-front-6571a632321ec.png"
+  main_logo: "/assets/img/logo.png"

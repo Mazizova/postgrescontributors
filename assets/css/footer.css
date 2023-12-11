@@ -1,0 +1,164 @@
+footer {
+    background: #689CC7;
+    padding: 87.5px 139px;
+}
+
+footer h4 {
+    color: #FFF;
+    font-family: Assistant;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .quick-links {
+    color: #FFF;
+    font-family: Assistant;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+}
+
+footer hr {
+    background: #FFF;
+    height: 1px;
+    margin-top: 100px;
+}
+
+footer .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .flex h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+footer .flex span {
+    color: #FFF;
+    text-align: right;
+    font-family: Assistant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .term-privacy {
+    color: #FFF;
+    text-align: right;
+    font-family: Assistant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    footer {
+        background: #689CC7;
+        padding: 25px 15px;
+    }
+
+    footer .mobile {
+        display: block!important;
+    }
+
+    footer > .flex {
+        display: none!important;
+    }
+
+    footer h4 {
+        color: #FFF;
+        font-family: Assistant;
+        font-size: 13.5px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 17px;
+    }
+
+    footer .quick-links {
+        color: #FFF;
+        font-family: Assistant;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11px;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        margin: 7.5px 0;
+    }
+
+    footer hr {
+        background: #FFF;
+        height: 1px;
+        margin-top: 50px;
+    }
+
+    footer .mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    footer .mobile .flex {
+        padding: 8px 0 0;
+    }
+
+    footer .mobile h5 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+    }
+
+    footer .mobile span {
+        color: #FFF;
+        text-align: left;
+        font-family: Assistant;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    footer .term-privacy {
+        color: #FFF;
+        text-align: left;
+        font-family: Assistant;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    footer hr {
+        margin-top: 30px;
+    }
+}

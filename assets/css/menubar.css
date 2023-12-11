@@ -1,0 +1,243 @@
+.logo {
+    width: 146px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px black solid;
+    position: relative;
+}
+
+.logo .logo-title {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 146px;
+    height: 17px;
+}
+
+a.postgresql {
+    width: 313px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+
+a.fame {
+    width: 269px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+
+a.store {
+    width: 112px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+
+p.sponsoredBy {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.ferretDB-logo {
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.menubar {
+    padding: 40px 0;
+}
+
+.show {
+    display: block !important;
+}
+
+.menubar>.flex {
+    display: none;
+}
+
+.bar {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .menubar {
+        padding: 10px 0 10px;
+    }
+
+    .menubar>.flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .menubar .flex {
+        width: 100%;
+    }
+
+    .menubar > .inline {
+        display: none;
+    }
+
+    .logo {
+        width: 86px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px black solid;
+        position: relative;
+    }
+
+    .logo .logo-title {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 146px;
+        height: 10px;
+    }
+
+    .bar {
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background: #0009;
+        display: none;
+    }
+
+    a.postgresql {
+        width: auto;
+        position: absolute;
+        font-size: 9px;
+    }
+
+    p.sponsoredBy {
+        font-size: 8px;
+    }
+
+    .bar .background {
+        background-color: white;
+        width: 50%;
+        padding: 60px 0px;
+        height: 100vh;
+        margin-left: 50%;
+    }
+
+    .bar a.postgresql {
+        color: rgba(102, 102, 102, 0.85) !important;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        width: 100%;
+        text-align: left;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border-top: 1px solid #ececec;
+        text-decoration: none;
+    }
+
+    .bar a.postgresql:hover {
+        background: #0002;
+    }
+
+    .bar a.fame {
+        width: 100%;
+        color: rgba(102, 102, 102, 0.85) !important;
+        text-align: left;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        text-decoration: none;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border-top: 1px solid #ececec;
+    }
+
+    .bar a.fame:hover {
+        background: #0002;
+    }
+
+    .bar a.store {
+        width: 100%;
+        color: rgba(102, 102, 102, 0.85) !important;
+        text-align: left;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        text-decoration: none;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border-top: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+    }
+
+    .bar a.store:hover {
+        background: #0002;
+    }
+
+    .ferretDB-logo {
+        cursor: pointer;
+        margin-bottom: 2.5px;
+    }
+}

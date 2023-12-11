@@ -1,0 +1,5329 @@
+- name: Jakub Wartak
+  bio: Senior Sofware Engineer
+  country: Poland
+  address: Poland
+  image: /assets/img/user.png
+  about: "I must say that Jakub is unique person that is able to deeply understood complexity of any IT system starting from disk SCSI operation and ending at application DB query. His knowledge in unix, virtualization, storage, security and databases area, connected with speed he is able to become an expert in new technology are extremely valuable. Great troubleshooter with rare intuition to finding bugs/holes and fixes (rumor says that some vendors stopped accepting cases opened by him"
+  github:
+  linkedin: "https://www.linkedin.com/in/vnull/"
+  company: EDB
+  mediaLink:
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/andres_freund.jpeg
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/bruce-momjian-featured.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/anastasia-lubennikova.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Software Engineer
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/konstantin_knizhnik.jpeg
+  mediaLink: 
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/vibhor_kumar.jpeg
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: 
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/bharath_rupireddy.jpg
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Amazon
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/bilva_sanaba.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/user.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: "Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews"
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/user.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail:
+  lastUpdate: Nov 16, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/dongwook_lee.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiyear: false
+- name: Ahsan Hadi
+  bio: Director Support & Services
+  image: /assets/img/ahsan_hadi.jpeg
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Ahsan is a database evangelist with over 20 years of development and management experience. He is passionate about databases, and has worked with Postgres and Oracle extensively throughout his career. With over 15 years of working with PostgreSQL, he has worked with companies like EDB as a Senior Director of Product Development, HighGo Software as VP of Product Development, and as a Programmer Analyst with British Telecom.
+  twitter: 
+  github: "https://github.com/ahsanhadi"
+  linkedin: "https://www.linkedin.com/in/ahsan-hadi-6667608/"
+  company: pgEdge 
+  detail: 
+  lastUpdate: Nov 13, 2023
+  multiyear: true
+- name: Ajit Awekar
+  bio: Staff SDE
+  image: /assets/img/user.png
+  mediaLink: 
+  country: India
+  address: India
+  about: "Working on database internals. Designing and implementing various query optimization techniques. Interested in Posix multithreaded programming, TCP/IP socket programming, Unix IPC. Specialties: GNU tools."
+  twitter:
+  github: 
+  linkedin: "https://www.linkedin.com/in/ajit-awekar-6780648/?originalSubdomain=in"
+  company: EDB
+  detail:
+  lastUpdate: Nov 13, 2023
+  multiYear: false
+- name: Ajin Cherian
+  bio: Software Development Engineer
+  image: /assets/img/ajin_cherian.jpeg
+  mediaLink: 
+  country: Australia
+  address: India
+  about: Experienced developer with demonstrated history of working in system software. Skilled in HP NonStop servers, Operating Systems/Kernel Management, embedded systems, database engineering C, C++, Linux system/application programming, memory management, python, networking OAM, YANG network models, networking platform, TCP/IP, ethernet protocol, high availability, and fault tolerant systems. Postgres open source developer. Experienced in Agile Methodologies and product ownership.
+  twitter: 
+  github: "https://github.com/ajinc"
+  linkedin: "https://www.linkedin.com/in/ajin-cherian-8827b241/"
+  company: Fujitsu Australia Software Technology
+  detail: 
+  lastUpdate: Nov 13, 2023
+  multiyear: true
+- name: Abhijit Menon-Sen
+  bio: Senior Developer
+  country: India
+  address: India
+  image: /assets/img/abhijit_menon_sen.png
+  mediaLink:
+  about: "I’ve submitted bug fixes and feature patches of varying size to Postgres for many years, and I’ve been involved with many other projects in the wider ecosystem, e.g., I was a repmgr maintainer, I’m the technical lead for Barman now, and I’ve contributed to many extensions etc.I feel very fortunate to have used and contributed to Postgres in so many different ways over the majority of my working life, and I really value the productive working relationships I’ve built with many other contributors during that time."
+  twitter: "https://twitter.com/amenonsen?lang=en"
+  github: "https://github.com/amenonsen"
+  linkedin: 
+  company: 2ndQuadrant Ltd.
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Alexander Korotkov
+  bio: Founder
+  country: United States 
+  address: United States 
+  image: /assets/img/alexander_korotkov.jpeg
+  about: "Alexander is professional computer scientist. His PhD dissertation was based on PostgreSQL contribution: improvements to fuzzy string search including index based regular expression search. One of the most valuable achievements of his work for open source community is development of infrastructure for access method extensibility. Also hiscontributions include improvements to GiST and GIN indexes, optimizations for multicore systems, statistics and selectivity estimation for advanced datatypes."
+  twitter: 
+  github: "https://github.com/akorotkov"
+  linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/"
+  company: OrioleDATA, Inc. 
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 15, 2023
+  multiYear: true
+- name: Alan Hodgson
+  bio: Senior Systems and Network Administrator
+  country: Canada 
+  address: Canada 
+  image: /assets/img/user.png
+  mediaLink: 
+  about: "Specialties: 
+ - IAC configuration and lifecycle management with Terraform
+ - Docker container building
+ - Managed Kubernetes (EKS); building, scaling, and lifecycle management of Kubernetes resources, and deployment control with Argo CD.
+ - PostgreSQL database performance and availability monitoring, tuning, administration, backups, replication; both self-hosted and RDS
+ - high performance web serving - Nginx, Apache, Varnish, PHP, Python and Rails application servers with Passenger
+ - Puppet configuration management
+ - Web and network security"
+  twitter:
+  github: "https://github.com/ajhodgson"
+  linkedin: "https://www.linkedin.com/in/alan-hodgson-17aa6215/?originalSubdomain=ca"
+  company: Venture Media Labs, Inc. 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Alex Denman
+  bio: Researcher at Binghamton University
+  country: United States 
+  address: United States
+  image: /assets/img/alex_denman.jpg
+  mediaLink: 
+  about: "As a researcher, I was repeatedly confronted with situations where the available tools for data processing and analysis were not sufficient to the task, so I learned how to make my own. Working with MATLAB, PostgreSQL, and various application-specific scripting languages, I designed a variety of data management and analysis tools, which remain in use by other lab personnel."
+  twitter: "https://twitter.com/AlexJDenman"
+  github:
+  linkedin: "https://www.linkedin.com/in/alexander-denman-31716016a/"
+  company: Binghamton University 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Alex Kozhemyakin
+  bio: Database Administrator
+  country: Estonia 
+  address: Estonia
+  image: /assets/img/alex_kozhemyakin.jpeg
+  mediaLink: 
+  about: "I worked 6 years in precision engineering sector as assembler, short time as Telecommunications Engineer/Technician and in some other IT companies. Currently i am working as Container Platform Architect and i have more than 10 years of solid experience in system administration. Additionally i have work experience in banking, gambling business and casino network."
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/alexander-kozhemyakin/"
+  company: Bigbank 
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Alexander Korolev
+  bio: Principal Software Developer
+  country: Germany  
+  address: Germany
+  image: /assets/img/alexander_korolev.jpeg
+  mediaLink: 
+  about: "Experienced Lead Software Developer with Expertise in Financial Services and IT Integration. Open Source Enthusiast & Collaborator.I believe that the power of collaboration and community-driven development can change the world, and open source is at the forefront of this movement.I thrive on finding creative solutions to complex problems, and I'm always looking for new and innovative ways to achieve my goals. My passion for experimenting with technology helps me stay ahead of the curve and find new ways to deliver results."
+  twitter: 
+  github: "https://github.com/kilork?tab=packages"
+  linkedin: "https://www.linkedin.com/in/alexander-korolev-56910495/"
+  company: Unternehmensberatung H & D GmbH
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Alexander Lakhin
+  bio: 
+  country:   
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about: "Alexander Lakhin is a developer advocate at Yugabyte, a distributed SQL database company. He specializes in PostgreSQL, an open-source relational database management system. Alexander has extensive experience working with PostgreSQL, providing guidance and support to developers and users of the database. He also contributes to the PostgreSQL community through various initiatives, such as speaking at conferences and writing articles about PostgreSQL best practices. Overall, Alexander Lakhin is a recognized expert in PostgreSQL and plays a crucial role in promoting its adoption and usage."
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Alexander Pyhalov
+  bio: System Programmer
+  country: Russia 
+  address: Russia
+  image: /assets/img/alexander_pyhalov.jpeg
+  mediaLink: 
+  about:
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/apyhalov/?originalSubdomain=ru"
+  company: Postgres Professional
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Alexey Borzov
+  bio: Independent Computer Software Professional
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter: 
+  github: "https://github.com/sad-spirit"
+  linkedin: "https://www.linkedin.com/in/alexey-borzov-a370081/"
+  company: 
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Alexey Ermakov
+  bio: PostgreSQL DBA and consultant
+  country: Russia
+  address: Russia
+  image: /assets/img/alexey-ermakov.png
+  mediaLink: 
+  about: "Alexey Ermakov is a PostgreSQL specialist and a PostgreSQL Major Contributor. He has a strong expertise in database administration and performance tuning. Ermakov has worked on various open source projects related to PostgreSQL, including development of extensions and improving core features. He has also contributed to the PostgreSQL documentation and has been actively involved in the PostgreSQL community."
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/alexey-ermakov-55318a15/"
+  company: Data Egret 
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Alexey Makhmutov
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/alexey-makhmutov.jpg
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/lerm_ru"
+  github: "https://github.com/Lerm"
+  linkedin: 
+  company: NetCracker Technology
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Álvaro Herrera
+  bio: PostgreSQL expert
+  country: Chile
+  address: Chile
+  image: /assets/img/alvaro-herrera-featured.png
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/alvherre"
+  github: "https://github.com/alvherre"
+  linkedin: "https://www.linkedin.com/in/alvherre/"
+  company: 2ndQuadrant, an EDB company
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: false
+- name: Amit Kapila
+  bio: Senior Director
+  country: India 
+  address: India
+  image: /assets/img/amit_kapila.jpeg 
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/kapila_amit?lang=en"
+  github: 
+  linkedin: "https://www.linkedin.com/in/amit-kapila-56b6003/?originalSubdomain=in"
+  company: Fujitsu India
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amit Khandekar
+  bio: Software Developer
+  country: India
+  address: India
+  image: /assets/img/amit_khandekar.jpg
+  mediaLink: 
+  about: "Amit Khandekar is a core developer of PostgreSQL, an open-source relational database management system. He has made significant contributions to the development and enhancement of PostgreSQL, including implementing several new features and improvements. His work has been widely recognized and appreciated by the PostgreSQL community."
+  twitter:
+  github: 
+  linkedin: "https://www.linkedin.com/in/amit-khandekar-10922647/"
+  company: MIndnerves Technology services Pvt. Ltd
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amit Langote
+  bio: Principal Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/amit_langote.jpeg
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/amitlan"
+  github: "https://github.com/amitlan" 
+  linkedin: "https://www.linkedin.com/in/amitlan?originalSubdomain=jp"
+  company: EDB
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amul Sul
+  bio: PostgreSQL Developer
+  country: India
+  address: India
+  image: /assets/img/amul_sul.jpeg
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/amulsul"
+  github: "" 
+  linkedin: "https://www.linkedin.com/in/sulamul"
+  company: EDB
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Andreas Dijkman
+  bio: Consultant IS
+  country: Netherlands
+  address: Netherlands
+  image: /assets/img/andreas_dijkman.png
+  mediaLink: 
+  about: "At Cygnis i'm responsable for the infrastructure of our customers. We manage not only databases (Oracle, MySQL, PostgreSQL) but also the operating system (Windows, RedHat, OEL, CentOS), the middleware and the hardware that it is running on. We use Nagios to monitor the entire environment."
+  twitter: 
+  github: "https://github.com/andreasdijkman" 
+  linkedin: "https://www.linkedin.com/in/dijkmana/"
+  company: Axians NL 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: true
+- name: Andreas Karlsson
+  bio: Software Developer
+  country: Sweden
+  address: Sweden
+  image: /assets/img/andreas_karlsson.jpeg
+  mediaLink: 
+  about: "Specialties: C, Ruby, and programming in general and competent in SQL, especially PostgreSQL."
+  twitter: 
+  github: "https://github.com/jeltz" 
+  linkedin: "https://www.linkedin.com/in/andreas-karlsson-18679b3b/"
+  company: Web Lovers AB
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andreas Scherbaum
+  bio: Head of Databases
+  country: Germany
+  address: Germany
+  image: /assets/img/andreas_scherbaum.jpeg
+  mediaLink: 
+  about: "Andreas Scherbaum is working with PostgreSQL since 1997. He is involved in several PostgreSQL related community projects, member of the Board of Directors of the European PostgreSQL User Group and also wrote a PostgreSQL book (in German)."
+  twitter: 
+  github: "https://github.com/andreasscherbaum" 
+  linkedin: "https://www.linkedin.com/in/andreas-scherbaum-87b6663/"
+  company: AdjustAdjust
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrei Zubkov
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/andrey_zubkov.png
+  mediaLink: 
+  about: "Andrey Zubkov is a software engineer and developer advocate for PostgreSQL, an open-source relational database management system (RDBMS). He is known for his contributions to the PostgreSQL community and his expertise in database administration and performance optimization. Zubkov often shares his knowledge through blog posts, conference presentations, and workshops. He actively participates in the PostgreSQL mailing lists and helps users with their database-related questions and challenges."
+  twitter: "https://twitter.com/oxxxymoron"
+  github: "https://github.com/zubkov-andrei" 
+  linkedin: "https://www.linkedin.com/in/andreyzubkov/"
+  company: Amazon Web Services (AWS)
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Alsup
+  bio: Director, IT Innovation
+  country: United States
+  address: United States
+  image: /assets/img/andrew-alsup.png
+  mediaLink: 
+  about:
+  twitter: 
+  github: "https://github.com/aalsup" 
+  linkedin: "https://www.linkedin.com/in/andrew-alsup-99336610/"
+  company: Man Tech
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: true
+- name: Andrew Bille
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/andrew-bille.jpg
+  mediaLink: 
+  about:
+  twitter: 
+  github:  
+  linkedin: 
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Dunstan
+  bio: Senior Principal Engineer
+  country: United States
+  address: United States
+  image: /assets/img/andrew_dunstan.jpeg
+  mediaLink: 
+  about: "PostgreSQL specialist and major contributor."
+  twitter: 
+  github: "https://github.com/adunstan" 
+  linkedin: "https://www.linkedin.com/in/andrewdunstan/" 
+  company: EDB
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Gierth
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about: "Hstore enhancements, ordered aggregates and ordered set functions, grouping sets, ip4r, and provides help and support in the IRC channel"
+  twitter: 
+  github: 
+  linkedin:
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Kesper
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/Andrew Kesper.png
+  mediaLink: 
+  about: 
+  twitter: 
+  github: "https://github.com/andrewkesper"
+  linkedin:
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrey Borodin
+  bio: Opensource RDBMS development team lead
+  country: Russia
+  address: Russia
+  image: /assets/img/andrey_borodin.jpeg
+  mediaLink: 
+  about: "Software engineer, computer scientist, software engineer at Yandex, Ph.D., associated professor at Ural Federal University, co-founder of Octonica company. Researching data indexing since 2008. Teaching at Yandex School for Data Analysis and UrFU. Contributing to PostgreSQL since 2016."
+  twitter: "https://twitter.com/x4mmmmmm?lang=en"
+  github: "https://github.com/x4m"
+  linkedin: "https://www.linkedin.com/in/borodin-andrew-79411b47/?originalSubdomain=ru"
+  company: Yandex.Cloud
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrey Lepikhov
+  bio: 
+  country:
+  address: 
+  image: /assets/img/andrey-lepikhov.png
+  mediaLink: 
+  about:
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/avlepikhov/"
+  company: Postgres Professional
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrey Sokolov
+  bio: 
+  country:
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter: 
+  github: "https://github.com/andr-sokolov"
+  linkedin:
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ankit Kumar Pandey
+  bio: 
+  country:
+  address:
+  image: /assets/img/Ankit-Kumar-Pandey.jpg
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/itsankitkp?tab=repositories"
+  linkedin: "https://www.linkedin.com/in/ankitkpandey/"
+  company:
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ante Kresic
+  bio: Software Engineer
+  country: Croatia
+  address: Croatia
+  image: /assets/img/ante_kresic.png
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/antekresic"
+  github: "https://github.com/antekresic"
+  linkedin: "https://www.linkedin.com/in/antekresic/?originalSubdomain=hr"
+  company: Timescale
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Anton Melnikov
+  bio: Backend Team Lead
+  country: Georgia
+  address: Georgia
+  image: /assets/img/anton_melnikov.png
+  mediaLink: 
+  about: "Anton Melnikov is a software developer and a maintainer of the PostgreSQL database system. He is highly skilled in database administration, performance tuning, and replication techniques. Melnikov has contributed numerous patches and bug fixes to the PostgreSQL project and has also written several extensions for the database. He is known for his expertise in optimizing PostgreSQL's query planner and executor, and his work has greatly improved the performance and scalability of the database. Additionally, Melnikov actively participates in the PostgreSQL community and frequently shares his knowledge through forums, blog posts, and presentations at conferences."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/melnikov-anton/?originalSubdomain=kz"
+  company: PHP
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Anton Sidyakin
+  bio: Sofware Developer
+  country: 
+  address: 
+  image: /assets/img/anton_sidyakin.png
+  mediaLink: 
+  about: "Anton Sidyakin is a software engineer who is known for his contributions to the PostgreSQL community. He has made several contributions to the PostgreSQL codebase, including implementing various features and bug fixes. In addition to his work with PostgreSQL, Anton has also worked on related projects such as pgAdmin, a popular open-source administration and development platform for PostgreSQL."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/anton-sidyakin-761a3458/"
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Anton Voloshin
+  bio: Software Developer
+  country: Ukraine 
+  address: Ukraine
+  image: /assets/img/anton_voloshin.png
+  mediaLink: 
+  about: "Anton Voloshin is a respected figure in the PostgreSQL community, known for his technical skills and contributions to the open-source database system. Anton Voloshin has made significant contributions to the PostgreSQL project, particularly in the areas of indexing, performance optimization, and query execution. He has been involved in different aspects of the database system, including working on planner/optimizer improvements and developing new features."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/anton-voloshin-a8423385/"
+  company: Postgres Professional
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Antonin Houska
+  bio: Software Developer
+  country: Czech Republic
+  address: Czech Republic
+  image: /assets/img/antonin_houska.jpg
+  mediaLink: 
+  about:
+  twitter:
+  github: "I’m a PostgreSQL developer and I work for the Cybertec company. In my previous job I was a DBA of some DB2 servers and I was always curious how databases work from the inside. Thus I naturally became interested in open source databases. And since PostgreSQL is declared to be the most advanced open source database, I focussed on it. When working on a feature that needs to be split into multiple diff files, I create one branch per diff and use a shell script to compare the “adjacent” branches and to generate the diffs. Other scripts take care of merging (both local and upstream) changes into the individual branches. "
+  linkedin: "https://www.linkedin.com/in/anton%C3%ADn-hou%C5%A1ka-2a160951/"
+  company: Cybertec
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Arne Roland
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter:
+  github:
+  linkedin:
+  company:
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Artem Anisimov
+  bio: Software Developer
+  country: New Zealand
+  address: New Zealand 
+  image: /assets/img/artem-anisimov.png
+  mediaLink: 
+  about: "Highly accomplished C/C++ developer with 10+ years of extensive experience as a Software Engineer. With key skills in design, knowledge in C# and expertise in mathematics, I have been recognised for achievements throughout my career in improving operational performance, identifying deficiencies, potential opportunities and developing innovative and cost-effective solutions for enhancing competitiveness, increasing revenues and improving stakeholder satisfaction."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/artemanisimov/?originalSubdomain=nz"
+  company: SAP
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Arthur Zakirov
+  bio: Senior PostgreSQL Developer
+  country: Germany
+  address: Germany
+  image: /assets/img/artur_zakirov.png
+  mediaLink: 
+  about: "Software developer with 10+ years experience developing robust and high quality code. Big fan of open source technologies, there are contributions to PostgreSQL and several open source projects. Extensive C, PostgreSQL, Python, Go, Java, SQL Server experience. Well-experienced with Linux and Bash, Python scripting. I'm a big fan of cycling and tourism."
+  twitter:
+  github: "https://github.com/za-arthur"
+  linkedin: "https://www.linkedin.com/in/za-arthur/"
+  company: Adjust 
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ashutosh Bapat
+  bio: PostgreSQL, Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/ashutosh_bapat.png
+  mediaLink: 
+  about: "Long experience in the field of core database server development in the areas like storage, buffer manager, query processing and optimization. Special exposure to distributed database servers."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/ashutoshbapat/"
+  company: EDB 
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ashutosh Sharma
+  bio: Senior Software Engineer
+  country: India
+  address: India
+  image: /assets/img/ashutosh_sharma.jpeg
+  mediaLink: 
+  about: "PostgreSQL Contributor, Senior Software Engineer at Microsoft India"
+  twitter:
+  github: "https://github.com/no-more-secret"
+  linkedin: "https://www.linkedin.com/in/ashutosh-sharma-a40897155/?originalSubdomain=in"
+  company: Microsoft 
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Asim Praveen
+  bio: Software Developer
+  country: India
+  address: India
+  image: /assets/img/asim_praveen.png
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/asimrp"
+  linkedin: "https://in.linkedin.com/in/asim-praveen-b1554021"
+  company: Indian Institute of Technology
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Atsushi Torikoshi
+  bio: PostgreSQL engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/atorik"
+  linkedin: "https://www.linkedin.com/in/atsushi-torikoshi-b8715831/"
+  company: NTT DATA
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ayaki Tachikake
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter:
+  github:
+  linkedin:
+  company:
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Balazs Szilfai
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter:
+  github:
+  linkedin:
+  company:
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Benoit Lobréau
+  bio: PostgreSQL DBA, Trainer
+  country: France
+  address: France
+  image: /assets/img/benoit_lobreau.jpg
+  mediaLink: 
+  about: "Former Design DBA, Benoit joined our DBA team in 2019. He is now the main developer of pg_activity and contributes to pitrery."
+  twitter:
+  github: "https://github.com/blogh"
+  linkedin:
+  company: Dalibo
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Bertrand Drouvot
+  bio: Senior Software Engineer
+  country: 
+  address: 
+  image: /assets/img/bertrand_drouvot.png
+  mediaLink: 
+  about: "I used to work as an oracle DBA since 1999. I am an OakTable Member, have been active in the Oracle community since 2012 and am a regular speaker in Europe conferences (Ukoug, Doag, …). I am currently having a lot of interest around open source and mainly PostgreSQL"
+  twitter:
+  github:
+  linkedin: "https://fr.linkedin.com/in/bdrouvot"
+  company: Amazon Web Services (AWS)
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Bernd Helmle
+  bio: Senior Database Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/bernd_helmle.jpeg
+  mediaLink: 
+  about: "Bernd Helmle works as a Senior Database Engineer at CYBERTEC. He's been using and contributing to PostgreSQL since 2000, and has helped enterprises implement PostgreSQL since 2006. He develops and maintains Informix FDW, and has written several patches for PostgreSQL core. "
+  twitter:
+  github: "https://github.com/psoo"
+  linkedin: "https://www.linkedin.com/in/bernd-helmle-a3aaa1209/"
+  company: CYBERTEC
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Anban Company
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter:
+  github:
+  linkedin:
+  company:
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Bob Krier
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/Bob-Krier.jpg
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/rkrier85233"
+  linkedin:
+  company:
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Boris Zentner
+  bio:
+  country:
+  address:
+  image: /assets/img/user.png
+  mediaLink:
+  about:
+  twitter:
+  github:
+  linkedin:
+  company:
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false  
+- name: Brad Nicholson
+  bio: Senior Software Engineer
+  country: Canada
+  address: Canada
+  image: /assets/img/brad_nicholson.png
+  mediaLink:
+  about: "Brad Nicholson is a database engineer and the PostgreSQL team lead at Compose, an IBM Company, which is one of our Platinum Sponsors for PostgresConf US 2018. Compose runs a PostgreSQL as a service platform, and has long been a supporter of the Postgres community through contributions and support."
+  twitter:
+  github: "https://github.com/bradnicholson"
+  linkedin: "https://www.linkedin.com/in/bradnicholson99/?originalSubdomain=ca"
+  company: Instacart
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Brar Piening
+  bio: 
+  country: Germany
+  address: Germany
+  image: /assets/img/brar_piening.png
+  mediaLink:
+  about:
+  twitter: "https://twitter.com/BrarPiening"
+  github: "https://github.com/Brar"
+  linkedin: "https://www.linkedin.com/in/brar-piening/"
+  company: Paul Gerhardt Diakonie
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Bruno da Silva
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/bruno-leandro-da-silva.png
+  mediaLink:
+  about: "I am a Software Engineer with 8 years of experience in various IT-related fields, from data analytics and server-side automation to app development & cloud deployment. My Mission is to help companies to deliver customer-centric solutions while increasing App efficiency and writing clean and reusable components."
+  twitter:
+  github: "https://github.com/Brunno-DaSilva"
+  linkedin: "https://www.linkedin.com/in/bruno-dasilva/"
+  company: Trace 3
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Cary Huang
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/cary-huang.jpg
+  mediaLink:
+  about: "Cary is a Senior Software Developer in HighGo Software Canada with 8 years of industrial experience developing innovative software solutions in C/C++ in the field of smart grid & metering prior to joining HighGo. He holds a bachelor degree in Electrical Engineering from University of British Columnbia (UBC) in Vancouver in 2012 and has extensive hands-on experience in technologies such as: Advanced Networking, Network & Data security, Smart Metering Innovations, deployment management with Docker, Software Engineering Lifecycle, scalability, authentication, cryptography, PostgreSQL & non-relational database, web services, firewalls, embedded systems, RTOS, ARM, PKI, Cisco equipment, functional and Architecture Design."
+  twitter:
+  github:
+  linkedin:
+  company: 
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Changhong Fei
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink:
+  about:
+  twitter:
+  github:
+  linkedin:
+  company: 
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Chris Travers
+  bio: Software engineer
+  country: Indonesia
+  address: Indonesia
+  image: /assets/img/chris-travers.jpg
+  mediaLink:
+  about: "Skilled software engineer, programmer, sysop, and manager. Contributor to PostgreSQL, LedgerSMB, and much more. Regular invited speaker at various conferences. Occasional keynote speaker."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/einhverfr/"
+  company: Stormatics
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Christoph Berg
+  bio: Debian Developer, PostgreSQL Contributor
+  country: Germany
+  address: Germany
+  image: /assets/img/christoph_berg.jpeg
+  mediaLink:
+  about: "Christoph is a Senior PostgreSQL Engineer at CYBERTEC. He's also a PostgreSQL Major Contributor and Debian developer. "
+  twitter:
+  github: "https://github.com/df7cb"
+  linkedin:
+  company: Cybertec
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Christophe Pettus
+  bio: Chief Executive Officer
+  country: United States
+  address: United States
+  image: /assets/img/christophe_pettus.png
+  mediaLink:
+  about: "Christophe Pettus is the Lead Consultant and Chief Executive Officer of PostgreSQL Experts, Inc., a boutique PostgreSQL consultancy based in Alameda, California. He has been working with PostgreSQL for nearly 20 years. He has been in the technology industry for over four decades; past employers include NASA's Jet Propulsion Laboratory andApple. He is also on the board of the Django Software Foundation."
+  twitter:
+  github: "https://github.com/xof"
+  linkedin: "https://www.linkedin.com/in/christophe-pettus-56475a98/"
+  company: PostgreSQL Experts, Inc.
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: true
+- name: Corey Huinker
+  bio: Database programmer
+  country: United States
+  address: United States
+  image: /assets/img/corey-huinker.png
+  mediaLink:
+  about: "Database programmer with 15+ years experience across a variety of industries. Specialties: Multiple database products (Oracle, Postgres, Snowflake, MySQL, Redshift, SQLServer, Sybase, DB2, Informix, etc). Writer of several PostgreSQL extensions. PostgreSQL hacker with a few minor commits under his belt."
+  twitter:
+  github: "https://github.com/coreyhuinker"
+  linkedin: "https://www.linkedin.com/in/corey-huinker-944183/"
+  company: Amazon RDS Open Source Databases
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Craig Ringer
+  bio: Database Software Developer
+  country: Australia
+  address: Australia
+  image: /assets/img/craig_ringer.jpeg
+  mediaLink:
+  about: "I'm a consultant for 2ndQuadrant, a global PostgreSQL consultancy, where I do a variety of core database product programming, extension development, remote database administration work, internal systems administration, infrastructure consolidation, support team management, customer communications, direct customer support, database fault troubleshooting, and essentially anything else the team or a customer needs."
+  twitter: "https://twitter.com/craig2ndq"
+  github: "https://github.com/ringerc"
+  linkedin: "https://www.linkedin.com/in/craig-ringer-38041a32/?originalSubdomain=au"
+  company: Enterprised Serviced Limited
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Curt Kolovson
+  bio: Sr Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/curt-kolovson.png
+  mediaLink:
+  about: "I've made contributions to database research as well as having been a practitioner developing or using DBMS technology. My work and expertise includes storage engines, indexing techniques, transactions, logging and recovery, high availability, disaster recovery, replication, spatial databases including Geographic Information Systems (GIS), temporal (historical) databases such as time-series databases, object-oriented DBMS, performance tuning and troubleshooting, etc. I was part of the original team that developed Postgres in the mid- to late-1980s at UC Berkeley, under the leadership of Professor Michael R. Stonebraker. I have an MS and PhD in Computer Science from UC Berkeley. My PhD advisor was Professor Mike Stonebraker, who won the ACM Turing Award in 2014."
+  twitter:
+  github: "https://github.com/ckolovson"
+  linkedin: "https://www.linkedin.com/in/ckolovson/"
+  company: MariaDB Corporation
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Dag Lem
+  bio: Senior Consultant
+  country: Norway
+  address: Norway
+  image: /assets/img/user.png
+  mediaLink:
+  about:
+  twitter:
+  github: "https://github.com/daglem"
+  linkedin: "https://www.linkedin.com/in/dag-lem-5209391/"
+  company: Nimrod
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Dagfinn Ilmari Mannsåker
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink:
+  about:
+  twitter:
+  github:
+  linkedin:
+  company: 
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Daniel Gustafsson
+  bio: Postgres Hacker
+  country: Sweden
+  address: Sweden
+  image: /assets/img/daniel_gustafsson.jpeg
+  mediaLink:
+  about: "I am a recognized PostgreSQL contributor and committer working on all aspects of the the PostgreSQL core server, as well as the website. On top of writing code, I also organize international conferences like Nordic PGDay, FOSDEM PGDay and PostgreSQL Conference Europe.In curl I am primarily focusing on security and code improvements around stability and defensive programming. I am also interested in implementing new security related RFCs around the protocols we support."
+  twitter: "https://twitter.com/d_gustafsson"
+  github: "https://github.com/danielgustafsson"
+  linkedin: "https://www.linkedin.com/in/danielgustafsson/?originalSubdomain=se"
+  company: Microsoft
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Daniel Vérité
+  bio: Owner
+  country: France
+  address: France
+  image: /assets/img/daniel_verite.jpeg
+  mediaLink:
+  about: "Free software addict, freelance developer near Paris, France.I’ve been doing database design and development since 1996, and opted to specialize in PostgreSQL since version 7.4.Besides SQL, I’m writing mostly in C, C++, Perl, PHP."
+  twitter: "https://twitter.com/DanielVerite"
+  github: "https://github.com/dverite"
+  linkedin: "https://www.linkedin.com/in/daniel-v%C3%A9rit%C3%A9-06a11617/"
+  company: Manitou-Mail
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Daniel Watzinger
+  bio: Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/daniel-watzinger.png
+  mediaLink:
+  about:
+  twitter: "https://twitter.com/2xu"
+  github:
+  linkedin: "https://www.linkedin.com/in/danielwatzinger/?locale=de_DE"
+  company: Agenda Informationssysteme GmbH & Co. KG
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Daniel Westermann
+  bio: Principal Consultant
+  country: Germany
+  address: Germany
+  image: /assets/img/user.png
+  mediaLink:
+  about:
+  twitter:
+  github: "https://github.com/danielwestermann"
+  linkedin: "https://www.linkedin.com/in/daniel-westermann/"
+  company: dbi services
+  detail:
+  lastUpdate: Nov 16, 2023
+  multiYear: false
+- name: Peter Eisentraut 
+  bio: VP. Chief Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/peter-eisentraut-featured.png
+  mediaLink:
+  about: "PostgreSQL guru, open-source developer. Works on the build system, porting, documentation, and the internationalization effort, and codes many other improvements."
+  twitter: "https://twitter.com/petereisentraut"
+  github: "https://github.com/petere"
+  linkedin: "https://www.linkedin.com/in/petereisentraut/"
+  company: EnterpriseDB
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Joe Conway 
+  bio: Sr. Software Dev Manager
+  country: United States
+  address: United States
+  image: /assets/img/joe-conway.png
+  mediaLink:
+  about: "PostgreSQL database expert. Extensive hands on experience with database logical and physical model architecture, query optimization, application development, custom extensions (sql, plpgsql, C functions),and internals development (grammar, parser, optimizer, execution engine)."
+  twitter: "https://twitter.com/josepheconway"
+  github: "https://github.com/jconway"
+  linkedin: "https://www.linkedin.com/in/josepheconway"
+  company: Amazon RDS
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Magnus Hagander
+  bio: Principal Database Consultant and Open Source Expert
+  country: Sweden
+  address: Sweden
+  image: /assets/img/magnus-hagander-featured.png
+  mediaLink:
+  about: "Database architect, developer and systems administrator. Database focus on PostgreSQL with a lot of work on SQL Server as well. Developer in C/C++, C# and many different scripting languages. Experienced in managing large Windows networks, from ethernet to to the top of the stack, and on Linux. Development focus on database backed systems or the database itself. Semi-frequent speaker at opensource conferences."
+  twitter: "https://twitter.com/magnushagander"
+  github: "https://github.com/mhagander"
+  linkedin: "https://www.linkedin.com/in/magnushagander/"
+  company: Redpill Linpro
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Heikki Linnakangas
+  bio: Co-founder at Neon,Inc
+  country: Finland
+  address: Finland
+  image: /assets/img/heikki-linnakangas.png
+  mediaLink:
+  about: "Heikki Linnakangas a long-time PostgreSQL hacker, and cofounder of Neon. He has authored many features and enhancements in PostgreSQL, mainly around indexing, storage and write-ahead logging."
+  twitter:
+  github: "https://github.com/hlinnaka"
+  linkedin: "https://www.linkedin.com/in/heikki-linnakangas-6b58bb203/?originalSubdomain=fi"
+  company: Neon, Inc
+  detail:
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Adam Mackler
+  bio: Chief Technology Officer
+  country: United States 
+  address: United States 
+  image: /assets/img/adam-mackler.png
+  about: "I am a contributor to several notable open-source projects, including bitcoinj, the leading Java library for Bitcoin functionality, and slick-pg, the PostgreSQL-specific extension to Slick, the Scala database interface, as well as being the founder of several open-source projects, hosted under my name on github, gitlab and bitbucket."
+  twitter: "https://twitter.com/AdamMackler"
+  github: "https://github.com/mackler"
+  linkedin: "https://www.linkedin.com/in/mackler/"
+  company: SCOPE 120 s.r.o.
+  mediaLink: 
+  detail: 
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Daniele Varrazzo
+  bio: Software Developer
+  country:  United Kingdom
+  address: United Kingdom
+  image: /assets/img/daniele-varrazzo.png
+  about: "I am an Italian software developer, with mathematical background, currently based in London. Software development has long been my passion, before becoming my profession. Outside of my paid-for job, I have been involved in several Free Software projects."
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/danielevarrazzo/"
+  company: Codice Lieve  
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: true
+- name: Daniil Anisimov
+  bio: 
+  country:  
+  address: 
+  image: /assets/img/user.png
+  about:
+  twitter: 
+  github:
+  linkedin:
+  company:  
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: Danny Shemesh
+  bio: Software Engineer
+  country: Israel
+  address: Israel
+  image: /assets/img/danny-shemesh.png
+  about: "I'm Danny Shemesh, a passionate hardware enthusiast, Java developer with expertise in modern JVM features, distributed systems maintenance, and deep knowledge of various databases and consensus protocols. I also excel in Golang, C++, Windows development, Linux scripting, web programming, and network analysis. My skills extend to reverse engineering, GUI automation, source control, agile methodologies, virtualization, CTF challenges, and mobile development."
+  twitter: "https://twitter.com/dany74q" 
+  github: "https://github.com/dany74q?tab=repositories"
+  linkedin: "https://www.linkedin.com/in/dany74q/"
+  company: Wiz 
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: Dave Page
+  bio: VP & Chief Architect, Database Infrastructure
+  country: United Kingdom
+  address: United Kingdom
+  image: /assets/img/dave_page.jpeg
+  about: "In his role at EnterpriseDB, Dave has worked on various projects, including developing multi-platform installer technology to improve user experience and integrate related products. He has also served as the lead architect for product installers, packaging, and deployment technology. Additionally, IDave has been the lead developer and architect of Postgres Enterprise Manager, and oversees global infrastructure."
+  twitter: "https://twitter.com/pgsnake?lang=en" 
+  github: "https://github.com/dpage"
+  linkedin: "https://www.linkedin.com/in/pgsnake/?originalSubdomain=uk"
+  company: EnterpriseBD
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Christensen
+  bio: Principal Database Engineer
+  country: United States
+  address: United States
+  image: /assets/img/david_christensen.png
+  about:
+  twitter:
+  github: "https://github.com/pgguru"
+  linkedin: "https://www.linkedin.com/in/david-christensen-66bb8920/"
+  company: Crunchy Data Solutions, Inc.
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David G. Johnston
+  bio: Software Developer
+  country: 
+  address: 
+  image: /assets/img/david_johnston.jpg
+  about: "My core experience is Automotive Dealership Database Modelling in PostgreSQL. Because PostgreSQL has been my selfless and constant companion, much of my recent public wanderings have been focused on aiding the community surrounding it. Primarily in answering questions and making suggestions, but also submitting and reviewing patches to the core project."
+  twitter:
+  github: "https://github.com/polobo"
+  linkedin:
+  company: DevelDog Development nc. 
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Geier
+  bio: Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/david_geier.png
+  about: "I work as a software engineer for the Berlin based startup Swarm64. In my spare time I program demos as a member of the demo-group Brain Control. In case you don’t know what I’m talking about check out the demoscene."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/david-geier/"
+  company: Swarm64 AS
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Gilman
+  bio: Sr. Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/david_gilman.png
+  about: "I do automation and backend web development. I've got lots of experience with Python, Flask, PostgreSQL and lots of practice with web scraping and DevOps automation."
+  twitter:
+  github: "https://github.com/dgilman"
+  linkedin: "https://www.linkedin.com/in/davidgilman1/"
+  company: Aidentified
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Kimura
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/David-Kimura.jpg
+  about:
+  twitter:
+  github: "https://github.com/dgkimura"
+  linkedin:
+  company: 
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Rowley
+  bio: Software Engineer
+  country: New Zealand
+  address: New Zealand
+  image: /assets/img/david-rowley-featured.png
+  about:
+  twitter:
+  github: "https://github.com/david-rowley"
+  linkedin: "https://www.linkedin.com/in/david-rowley-05296477/"
+  company: Microsoft
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Steele
+  bio: Principal Architect
+  country: United States
+  address: United States
+  image: /assets/img/david-steele.png
+  about: "David Steele is Principal Architect at Crunchy Data, the Trusted Open Source Enterprise PostgreSQL Leader. He has been actively developing with PostgreSQL since 1999.David loves taking on big data challenges. Before Crunchy Data he was Data Architect at Resonate, an online media company using PostgreSQL to drive its transactional and data warehousing databases. Before that, he helped drive global mobile text messaging at Sybase365."
+  twitter:
+  github: "https://github.com/dwsteele"
+  linkedin: "https://www.linkedin.com/in/davidsteele/"
+  company: Crunchy Data Solutions, Inc.
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Turon
+  bio: Software Developer
+  country: Czech Republic
+  address: Czech Republic
+  image: /assets/img/user.png
+  about:
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/david-turo%C5%88-3b1bb08b/"
+  company: LinuxBox.cz
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 17, 2023
+  multiYear: false
+- name: David Zhang
+  bio: Data Scientist
+  country: United States
+  address: United States
+  image: /assets/img/david_zhang.png
+  about: "Experienced AI-enable application/system developer, Data Scientist, advanced data analyst, AI/ML/NLP/Deep Learning, Cloud Architect, MLOps，DevOps, SecDevOps, SRE, Serverless/container, autoscaling, pipeline, automation, Database Developer, Database Administrator, Data Analyst, Data Architect, ETL, BI, Data Visualization expert with a demonstrated history of working in the information technology, services industry and government."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/david-zhang-d/"
+  company: Blackboard
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 18, 2023
+  multiYear: false
+- name: Jonathan Katz
+  bio: Principal Product Manager
+  country: United States
+  address: United States
+  image: /assets/img/jonathan-katz-featured.png
+  about: "Business technology leader and PostgreSQL enthusiast and community contributor. Serial entrepreneur and team builder. Open source advocate. PostgreSQL + Kubernetes. Nonprofit Director."
+  twitter: "https://twitter.com/jkatz05"
+  github: "https://github.com/jkatz"
+  linkedin: "https://www.linkedin.com/in/jonathan-katz-6495532/"
+  company: Amazon Web Services
+  mediaLink:
+  detail: 
+  thumbnailImage:
+- name: Stephen Frost
+  bio: Chief Technology Officer 
+  country: United States
+  address: United States
+  image: /assets/img/stephen-frost-featured.png
+  about: "Work extensively with PostgreSQL. PostgreSQL features I've implemented and contributed are the Role system (replacing the prior user/group system), Column-Level Privileges, Row Level Security, and others."
+  twitter: "https://twitter.com/net_snow?lang=en"
+  github: "https://github.com/sfrost"
+  linkedin: "https://www.linkedin.com/in/stephen-frost"
+  company: Crunchy Data Solutions, Inc.
+  mediaLink:
+  detail: 
+  thumbnailImage:  
+  lastUpdate: Nov 19, 2023
+  multiYear: true
+- name: Thomas Munro 
+  bio: Principal Software Engineer 
+  country: New Zealand
+  address: New Zealand
+  image: /assets/img/thomas-munro-featured.png
+  about: "Having worked with all the major commercial relational databases as an application developer in data-heavy industries like fintech over a couple of decades, I am under no illusions about the fact that each of them can beat PostgreSQL in some respect or other. But PostgreSQL is my favourite… it belongs to all of us and we have the power to keep making it better!"
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/thomas-munro-8559201b/"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:  
+  lastUpdate: Nov 19, 2023
+  multiYear: true
+- name: Davinder Singh
+  bio: Software Engineer
+  country: India
+  address: India
+  image: /assets/img/davinder_singh.png
+  about: "Specialized in relational databases. Contribution to open-source PostgreSQL development, fix bugs, review patches."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/davindersinghd/?originalSubdomain=in"
+  company: Enterprise DB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dean Rasheed
+  bio: Principal Software Developer & Database Expert
+  country: United Kingdom
+  address: United Kingdom
+  image: /assets/img/dean_rasheed.jpeg
+  about: "Over 20 years experience designing and devoloping innovative software systems. Proficient in C, Java, Python, SQL, HTML, CSS, JavaScript and web technologies, with experience ranging from developing low-level database innards to building intuitive and usable user interfaces.Theoretical physicist and mathematician."
+  twitter:
+  github: "https://github.com/deanrasheed"
+  linkedin: "https://www.linkedin.com/in/deanrasheed/"
+  company: University of Cambridge
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Denis Laxalde
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  twitter:
+  github: "https://github.com/dlax"
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dilip Kumar
+  bio: Principal, Database Architect and Engineering Manager
+  country: India
+  address: India
+  image: /assets/img/user.png
+  about: "PostgreSQL Contributor.Working in PostgreSQL internals (Executor, Optimizer, Storage, Parallel Query, Performance & scalability)."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/dilip-kumar-6b75863a/?originalSubdomain=in"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dimos Stamatakis
+  bio: Senior Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/dimos_stamatakis.png
+  about: "I am currently working toward my Ph.D. with Prof. Liuba Shrira on Main-Memory Databases, aka Transactional Memory Systems. I received my BSc and MSc degrees in Computer Science from the University of Crete, Greece, while working as a research associate at the Computer Architecture and VLSI (CARV) Laboratory at ICS-FORTH. My research interests include Parallel and Distributed Storage Systems, Transactional Memory Systems and Multicore Systems."
+  twitter:
+  github: ""
+  linkedin: "https://www.linkedin.com/in/dimokritos-stamatakis-018a985a/"
+  company: ServiceNow
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dmitriy Kuzmin
+  bio: Software Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/dmitry-kuzmin.png
+  about:
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/dmitry-kuzmin-5040321aa/?originalSubdomain=ru"
+  company: IBS
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dmitry Astapov
+  bio: Functional Programmer
+  country: United Kingdom
+  address: United Kingdom
+  image: /assets/img/dmitry_astapov.png
+  about: "OCaml software developer in the proprietary trading firm. Before that IS/IT Analyst, Project Manager, System and Software Architect with a focus on VAS development and NSS integration. Vast experience in business and technologies of a modern Telecoms provider."
+  twitter: "https://twitter.com/_adept_"
+  github:
+  linkedin: "https://www.linkedin.com/in/adept/?originalSubdomain=uk"
+  company: Jane Street Europe
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dmitry Dolgov
+  bio: Senior Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/dmitry_dolgov.jpeg
+  about:
+  twitter: "https://twitter.com/erthalion"
+  github: "https://github.com/erthalion"
+  linkedin: "https://www.linkedin.com/in/erthalion/?originalSubdomain=de"
+  company: Red Hat
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dmitry Koval
+  bio: Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/dmytro_koval.png
+  about:
+  twitter: "https://twitter.com/dmitrykoval?lang=en"
+  github: "https://github.com/dmitrykoval"
+  linkedin: "https://www.linkedin.com/in/dimakoval/?originalSubdomain=de"
+  company: Snowflake
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Dongming Liu
+  bio: Software Engineer
+  country: China
+  address: China
+  image: /assets/img/user.png
+  about:
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Drew DeVault
+  bio: Founder
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: "I think people rely on JavaScript too much. With sourcehut I’m trying to set a good example, proving that it’s possible (and not that hard!) to build a useful and competitive web application without JavaScript and with minimal bloat. The average sr.ht page is less than 10 KiB with a cold cache. I’ve been writing a little about why this is important, and in the future I plan to start writing about how it’s done."
+  twitter: "https://twitter.com/drewdevault?lang=pl"
+  github: "https://github.com/ddevault"
+  linkedin: 
+  company: Source Hut
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Duncan Sands
+  bio: 
+  country: France
+  address: France
+  image: /assets/img/user.png
+  about: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Ed Maste
+  bio: Director of Project Development
+  country: Canada
+  address: Canada
+  image: /assets/img/Ed Maste.jpeg
+  about: 
+  github: "https://github.com/emaste"
+  linkedin: "https://www.linkedin.com/in/edmaste/"
+  company: FreeBSD Foundation
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Egor Chindyaskin
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Ekaterina Kiryanova
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false
+- name: Elena Indrupskaya
+  bio: Lead Technical Writer
+  country: Russia
+  address: Russia
+  image: /assets/img/elena_indrupskaya.png
+  about: "Qualified information developer with 20+ years in technical writing. Experienced in creation of end-user documentation, such as developer guides, developer references, or getting started guides, as well as help systems, including context-sensitive help and documentation for help desk portals. Supported full documentation cycle, including planning, creation, review, publishing, and Web posting."
+  github: 
+  linkedin: "https://www.linkedin.com/in/eindrups/"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false  
+- name: Emmanuel Quincerot
+  bio: Full Stack Engineer
+  country: France
+  address: France
+  image: /assets/img/emmanuel-quincerot.jpg
+  about: 
+  github: "https://github.com/EQuincerot"
+  linkedin: "https://www.linkedin.com/in/emmanuel-quincerot-8b55453b/"
+  company: Doctolib
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false  
+- name: Himanshu Upadhyaya
+  bio: Technical Analyst
+  country: India
+  address: India
+  image: /assets/img/himanshu-upadhyay.png
+  about: "Optimistic Senior Software Engineer with 5+ energetic years of experience of working on C#,asp.net,SQL, Javascript, Restful Api's, DSA and Design Patterns. An enthusiastic team player, a creative thinker with good communication skills."
+  github: 
+  linkedin: "https://www.linkedin.com/in/himanshu-upadhyay-b685051b7/"
+  company: Quadrant Resource
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Hisahiro Kauchi
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  github: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Hongyu Song
+  bio: 
+  country: China
+  address: China
+  image: /assets/img/user.png
+  about:
+  github: "https://github.com/huey97"
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Hubert Lubaczewski
+  bio: Owner
+  country: Poland
+  address: Poland
+  image: /assets/img/hubert_lubaczewski.jpeg
+  about: "I have been working with PostgreSQL since version 6.5.3 and year 1999. Since then, I used every released, and most developer versions, including latest snapshots from GIT repository of PostgreSQL project.My work, initially just working with databases, over time focused more and more on the database end of applications. This transition also reaffirmed my trust in my database of choice, its features, stability and developers know-how."
+  github:
+  linkedin: "https://www.linkedin.com/in/depesz/?originalSubdomain=pl"
+  company: depesz Software
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Hung Nguyen
+  bio: Research Fellow
+  country: Germany
+  address: Germany
+  image: /assets/img/hung_nguyen.png
+  about: "Master’s degree in European Studies at the University of Flensburg. Having experimented with several working positions, including sales, academic manager, English teacher, and research assistant. Computer-related skills: Excel, SPSS, PostgreSQL, OllyDbg and most recently, Python (in progress). A combination of entrepreneurial and analytical mindsets"
+  github: ""
+  linkedin: "https://www.linkedin.com/in/hoangviethungnguyen/?originalSubdomain=de"
+  company: Research Center on Inequality and Social Policy
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Eric Mutta
+  bio: Software Engineer
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/ericmutta"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Ian Barwick
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/ian-lawrence-barwick.png
+  about:
+  github:
+  linkedin: "https://www.linkedin.com/in/ianlawrencebarwick/"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Ibrar Ahmed
+  bio: PostgreSQL Consultant
+  country: 
+  address: 
+  image: /assets/img/ibrar-ahmed.png
+  about:
+  github:
+  linkedin: "https://www.linkedin.com/in/ibrarahmed74/"
+  company: Percona
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Erik Rijkers
+  bio: Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/user.png
+  about:
+  github:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Erki Eessaar
+  bio: Software Engineer
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  github:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Ilya Gladyshev
+  bio: Senior Software Engineer
+  country: United Kingdom
+  address: United Kingdom
+  image: /assets/img/ilya_gladyshev.png
+  about:
+  github: "https://github.com/qoops-1/"
+  linkedin: "https://www.linkedin.com/in/ilya-gladyshev/?locale=en_US"
+  company: Bloomberg
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Ilya Nenashev
+  bio: Software Developer
+  country: Cyprus
+  address: Cyprus
+  image: /assets/img/ilya-nenashev.png
+  about:
+  github:
+  linkedin: "https://www.linkedin.com/in/nashev/?locale=en_US"
+  company: 24H soft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Isaac Morland
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  github:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Israel Barth Rubio
+  bio: Software Engineer
+  country: Brazil
+  address: Brazil
+  image: /assets/img/israel_barth_rubio.png
+  about: "Develop, maintain and support open source projects for Postgres High Availability and Backup, e.g. Patroni and Barman, besides in-house tools for automation and deployment; Involvement with open source communities to help on addressing questions, reviewing code and contributing features to projects. Help to resolve customer issues and provide training for new product releases. Write regression tests for bugs and new features. Assist with growing test automation through GitHub Actions"
+  github:
+  linkedin: "https://www.linkedin.com/in/israel-barth-rubio-02b337137/"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Jacob Champion
+  bio: Staff Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/jacob_champion.jpeg
+  about: "I'm a software engineer with more than a decade of experience in creating and maintaining web-based distributed systems. I can architect new systems to minimize security risk, analyze existing ones for potential vulnerabilities, and recommend appropriate courses of action when vulnerabilities and exploits are discovered. My particular areas of expertise include application design for embedded and resource-constrained environments, as well as the maintenance and end-of-life management of legacy systems and protocols.I've contributed to the code bases of major open-source web servers and database engines in a variety of languages. I'm comfortable working in Agile project management systems, and I've acted as ScrumMaster and team lead for small teams of engineers. And I don't shy away from janitorial work when old code just needs to be cleaned up."
+  github: "https://github.com/jchampio"
+  linkedin: "https://www.linkedin.com/in/jacob-champion/"
+  company: Timescale
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Erwin Brandstetter
+  bio: Database Expert
+  country: 
+  address: 
+  image: /assets/img/erwin_brandstetter.jpg
+  about: "Database expert. PostgreSQL contributor."
+  github: "https://github.com/brsa"
+  linkedin: "https://www.linkedin.com/in/erwin-brandstetter-59aba851/"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Sho Kato
+  bio: System Engineer
+  country: Japan 
+  address: Japan 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/kato-sho"
+  linkedin: "https://www.linkedin.com/in/sho-kato-b02539113/?originalSubdomain=jp"
+  company: Fujitsu
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Shruthi Gowda
+  bio: Software Developer
+  country: Canada
+  address: Canada 
+  image: /assets/img/Shruthi Gowda.jpeg
+  about: "A Software Developer with almost 5 years experience in designing, developing, implementing, testing and maintaining software applications using Java, J2EE technologies. Proficient in Java, J2EE, Spring MVC, SQL, NoSQL, Spring Boot, TestNG, JUnit. Familiar with Jenkins, Docker and Kubernetes."
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/shruthi-hanumantha-gowda-0741ba32/?originalSubdomain=ca"
+  company: Expedia Group
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Shveta Mallik
+  bio: Principal Software Developer
+  country: India
+  address: India
+  image: /assets/img/shveta_mallik.jpeg
+  about: 
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/shveta-malik/?originalSubdomain=in"
+  company: Fujitsu
+  mediaLink: 
+  detail: 
+  thumbnailImage: 
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Simon Riggs
+  bio: Strategic Advisor
+  country: United Kingdom
+  address: United Kingdom
+  image: /assets/img/simon_riggs.jpeg
+  about: "Solution oriented problem solver, rational manager and energetic leader. Community contributor. 36 year career in enterprise IT solutions, specialising in database management, often hands-on. Strategic and technical communication in the media and as a popular conference speaker, trainer and author. Major enterprise-level experience working from within international startup product/service companies, including 2 successful IPOs and major M&As."
+  twitter: "https://twitter.com/simon_riggs?lang=en"
+  github: "https://github.com/simonat2ndQuadrant"
+  linkedin: "https://www.linkedin.com/in/simonriggs-postgresql-edb/"
+  company: Stormatics
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Sindy Senorita
+  bio: Software Engineer 
+  country: Indonesia 
+  address: Indonesia 
+  image: /assets/img/sindy_senorita.jpeg
+  about: "A responsible, ambitious and self-motivated learner. Fascinated by how technology affects the dynamics of the society. Mainly interested in Software Engineering and Pervasive Computing."
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/sindy-senorita/?originalSubdomain=id"
+  company: BFI Finance Indonesia
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Sirisha Chamarthi
+  bio: Software Engineer
+  country: United States 
+  address: United States 
+  image: /assets/img/user.png
+  about: "Postgres enthusiast"
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/sirishachamarthi/"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Sravan Kumar
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Stéphane Tachoires
+  bio: Senior DBA
+  country: France
+  address: France
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/sttachoires"
+  linkedin: "https://www.linkedin.com/in/stephane-tachoires-53984013b/?originalSubdomain=fr"
+  company: Air France 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Steve Chavez
+  bio: 
+  country:
+  address: 
+  image: /assets/img/user.png
+  about: "Open source software enthusiast."
+  twitter: "https://twitter.com/_steve_chavez?lang=en"
+  github: "https://github.com/steve-chavez"
+  linkedin: 
+  company: OrioleDATA, Inc. 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Etsuro Fujita
+  bio: Senior Expert 
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: "Etsuro Fujita is Senior Expert at NTT Open Source Software Center and is working with PostgreSQL."
+  twitter: 
+  github: 
+  linkedin: 
+  company: NTT
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Eugeny Zhuzhnev
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Euler Taveira
+  bio: Senior Software Development Engineer
+  country: Brazil
+  address: Brazil
+  image: /assets/img/euler_taveira.jpeg
+  about: "Software Development Engineer at EDB. PostgreSQL contributor. Regular conference speaker. Open Source Advocate. Database architect. Traveler. Soccer player and runner in his spare time."
+  twitter: "https://twitter.com/eulerto"
+  github: "https://github.com/eulerto"
+  linkedin: "https://www.linkedin.com/in/eulerto/?originalSubdomain=br"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Evan Jones
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/evan_jones.jfif
+  about: "I'm a software engineer at Datadog in New York. I previously worked at Bluecore, fixed interesting bugs at Twitter, and taught a database class at Columbia as an adjunct. I was a co-founder and CTO of Mitro, a password manager for groups and organizations, along with Vijay Pandurangan and Adam Hilss. Before that, I earned a Ph. D. from MIT, researching distributed OLTP databases with Sam Madden."
+  twitter: "https://twitter.com/epcjones"
+  github: "https://github.com/evanj"
+  linkedin: "https://www.linkedin.com/in/epcjones/"
+  company: Datalog
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Stone Tickle
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Evgeny Morozov
+  bio: 
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/loop-evgeny"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Fabrízio de Royes Mello
+  bio: Senior Software Engineer II
+  country: Brazil
+  address: Brazil
+  image: /assets/img/fabrízio_de_royes_mello.jpeg
+  about: "Portuguese: Atualmente eu ajudo pessoas e times a aproveitar o máximo do potencial dos bancos de dados relacionais, em especial o PostgreSQL, apoiando as equipes desde a concepção da estrutura de um banco de dados (modeling), passando pela arquitetura física (database schema), programação (procedural languages), SQL (uso, tunning, boas práticas), otimização e orquestração de instâncias em produção. Realizo trabalhos voluntários para Comunidade Brasileira de PostgreSQL, apoiando nas listas de discussão, organização de eventos e administração da mesma. Também ajudo o PostgreSQL Global Development Group (PGDG) na implementação de algumas funcionalidades e revisão de patches. "
+  twitter: "https://twitter.com/fabriziomello"
+  github: "https://github.com/fabriziomello"
+  linkedin: "https://www.linkedin.com/in/fabriziomello/"
+  company: Timescale
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Farias de Oliveira
+  bio: Software Engineer
+  country: Brazil
+  address: Brazil
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/charles-de-farias-oliveira-090463104/"
+  company: UFRPE
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Florin Irion
+  bio: PostgreSQL Developer
+  country: Italy
+  address: Italy
+  image: /assets/img/florin_irion.png
+  about: "All my work revolves around PostgreSQL, whether it is DBA managing systems directly or through tools such as Ansible, Kubernetes. Developer working on C patches for extensions (the dream is to submit one day a patch in the core). Tester creating tests in Perl, SQL, Ansible. Support Engineer solving customer issues. Consultant helping companies finding the right solution for their needs, up to the community work related to ITPUG."
+  twitter: "https://twitter.com/irionr"
+  github: "https://github.com/irionr"
+  linkedin: "https://www.linkedin.com/in/florin-razvan-irion/?locale=en_US"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Franz-Josef Färber
+  bio: Co Founder at Stealth
+  country: Germany
+  address: Germany
+  image: /assets/img/franz_faerber.png
+  about: "Experienced Executive Vice President with a demonstrated history of working in the computer software industry. Skilled in Enterprise Software, C++, Enterprise Architecture, Databases, and Software Design. Experienced in cloud technologies. Strong business development professional graduated from Dipl Ing BA."
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/franz-faerber/"
+  company: Stealth
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Garen Torikian
+  bio: Chief Technology Officer
+  country: United States
+  address: United States
+  image: /assets/img/garen_torikian.png
+  about: 
+  twitter: "https://twitter.com/gjtorikian"
+  github: "https://github.com/gjtorikian"
+  linkedin: "https://www.linkedin.com/in/gjtorikian/"
+  company: Yetto
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Georgios Kokolatos
+  bio: Software Engineer
+  country: Greece
+  address: Greece
+  image: /assets/img/georgios_kokolatos_600.jpg
+  about: "After I turned forty, or thereabouts, I started to get an itch for a new professional direction. I had some options yet I decided to go for a long shot and return to engineering from management. There was a project that always fascinated me yet I didn’t know in depth, postgres. I was fortunate to be hired to work remotely as an engineer on Greenplum by Pivotal. Following Pivotal’s acquisition by VMware, I moved to the postgres team where I now reside."
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/georgios-kokolakis-a287a9a9/"
+  company: Greenplum by Pivotal
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Gilles Darold
+  bio: Senior Developer
+  country: France
+  address: France
+  image: /assets/img/gilles_darold.png
+  about: "I am a PostgreSQL Database Administrator and Developer. I've been working in the world of PostgreSQL and Linux for over 20 years and have worked on many different projects covering PostgreSQL administration, performance tuning, advanced backup and recovery, replication, and high Availability. I have also 20 years of experiences in different areas related to System and Network. I use PostgreSQL since 1995, since this time I've created some well known tools around PostgreSQL like pgBadger for log analysis, Ora2Pg to migrate Oracle database and more recently pgCluu, pgFormatter and some useful PostgreSQL extensions. I've also contributed to PostgreSQL, pgPool-II and OpenLDAP code to name a few."
+  twitter: 
+  github: "https://github.com/darold?tab=repositories"
+  linkedin: "https://www.linkedin.com/in/gilles-darold-03b990110/?originalSubdomain=fr"
+  company: Darold.net
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Greg Stark
+  bio: Database Engineer
+  country: Canada
+  address: Canada
+  image: /assets/img/user.png
+  about: "Developer-at-large for open source projects. These days I'm particularly interested in system performance and scalability in PostgreSQL."
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/greg-stark-4a297/"
+  company: PostgreSQL Global Development Group
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Guillaume Lelarge
+  bio: Co-Owner, PostgreSQL Expert
+  country: France
+  address: France
+  image: /assets/img/guillaume_lelarge.jpeg
+  about:
+  twitter: 
+  github: "https://github.com/gleu"
+  linkedin: "https://www.linkedin.com/in/guillaume-lelarge-023aa4170/"
+  company: Dalibo
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Gunnar Bluth
+  bio: 
+  country: Germany
+  address: Germany
+  image: /assets/img/gunnar_bluth.jpeg
+  about: "Senior Linux & FOSS consultant with 20 years of experience in enterprise environments.Currently working as PostgreSQL DBA at ELSTER, the german electronic tax system.Also CEO and owner of Pro Open GmbH."
+  twitter: "https://twitter.com/nickbloodh"
+  github: "https://github.com/bluthg"
+  linkedin: "https://www.linkedin.com/in/gunnar-nick-bluth-2975661/"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Gunnar Morling
+  bio: Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/gunnar_morling.png
+  about: "Gunnar Morling is a software engineer and open-source enthusiast by heart. Before joining Decodable, he worked at Red Hat, where he led the Debezium project, a platform for change data capture (CDC). He is a Java Champion, the spec lead for Bean Validation 2.0 (JSR 380), a prolific blogger, and has founded multiple open source projects such as kcctl, JfrUnit, and MapStruct. Gunnar is based in Hamburg, Germany."
+  twitter: 
+  github: "https://github.com/gunnarmorling"
+  linkedin: "https://www.linkedin.com/in/gunnar-morling-2b44b7229/"
+  company: Decodable
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Gurjeet Singh
+  bio: Software Engineer
+  country: 
+  address: 
+  image: /assets/img/gurjeet.png
+  about: "Systems Software, Database Internals, PostgreSQL Contributor, Software Architect, Engineering Manager. Postgres database internals engineer and Database Architect with 18+ years of hands-on experience helping customers with training, consulting, migrations, replication, high-availability.  I have spent about 2 years training people on Database Internals, Management, Administration and Development of EnterpriseDB and PostgreSQL databases."
+  twitter: 
+  github: "https://github.com/gurjeet"
+  linkedin: "https://www.linkedin.com/in/gurjeet79/"
+  company: Amazon
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Haiyang Wang
+  bio: Software Engineer
+  country: China
+  address: China
+  image: /assets/img/user.png
+  about: 
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/haoyang-wang-a8b104152/?locale=fr_FR"
+  company: Bytedance
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
+- name: Haiying Tang
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter:
+  github:
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Hamid Akhtar
+  bio: Software Engineer
+  country: Pakistan
+  address: Pakistan
+  image: /assets/img/hamid_akhtar.png
+  about: "I have more than two decades of professional experience that includes high quality application development, design robust application architectures, devops, and team management. I know a bit about software development, software estimation strategies, requirement elicitation, process definitions and software development. C/C++ and PostgreSQL is something I'm really passionate about."
+  twitter:
+  github: "https://github.com/EngineeredVirus"
+  linkedin: "https://www.linkedin.com/in/engineeredvirus/"
+  company: Percona
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Hans Buschmann
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter:
+  github:
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Hao Wu
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter:
+  github: "https://github.com/gfphoenix78"
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Hayato Kuroda
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter:
+  github: ""
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Heath Lord
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter:
+  github: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Jacob Speidel
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/jacob_speidel.png
+  about: 
+  twitter:
+  github: 
+  linkedin:
+  company: ExtraHop
+  mediaLink: "https://www.linkedin.com/in/jacobspeidel/"
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Jaime Casanova
+  bio: Professional Services Director
+  country: Ecuador
+  address: Ecuador
+  image: /assets/img/jaime_casanova.jpeg
+  about: "I’m from Ecuador, a little country in South America, a nice place to visit with beaches and highlands, jungles and big cities too… especially I will recommend anyone to visit the Galapagos Islands. I’m also a Chilean citizen because of my dad and have a little percentage of Italian blood because of my mom’s grandfather.I have 18 years working and contributing with PostgreSQL, at least half of them leading the Ecuador branch of 2ndQuadrant. After EDB’s acquisition of 2ndQ, we reverted to our original name of SYSTEMGUARDS, of which I am the CEO, a PostgreSQL support company that specializes in spanish language support, consultancy and training."
+  twitter: "https://twitter.com/JCasanovaEC"
+  github: "https://github.com/Jaime2ndQuadrant"
+  linkedin: "https://www.linkedin.com/in/jaime-casanova/?originalSubdomain=ec"
+  company: Systemguards
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Marina Polyakova
+  bio: Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/marina-polyakova.png
+  about: "Marina Polyakova has been working at Postgres Professional for 7 years. Postgres Professional is part of the Business Services industry, and located in Russia."
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/marina-polyakova-73353767/"
+  company: Postgres Proffesional
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Mark Dilger
+  bio: Principal Engineer
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/mark-dilger-225625274/"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Marko Tiikkaja
+  bio: 
+  country: Finland
+  address: Finland
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/johto"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Markus Winand
+  bio: Senior Software Developer & Founder
+  country: Austria
+  address: Austria
+  image: /assets/img/markus-winand.png
+  about: "SQL Renaissance Ambassador. Author, Trainer, Coach. PhD in Common Sense."
+  twitter: "https://twitter.com/MarkusWinand"
+  github: 
+  linkedin: "https://www.linkedin.com/in/markuswinand/"
+  company: Winand
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Martijn van Oosterhout
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Martin Jurca
+  bio: Development Team Lead
+  country: Czech Republic
+  address: Czech Republic
+  image: /assets/img/Martin Jurca.jpeg
+  about: "Development team lead for a team of 8 people (4 FE, 4 BE), improving & maintaining the homepage of Seznam.cz, a.s. I focus on helping my team grow their expertise, help solve technical or other issues where needed, and boldly lead the charge in new projects."
+  twitter: 
+  github: "https://github.com/jurca"
+  linkedin: "https://www.linkedin.com/in/martinjurca/"
+  company: Seznam.cz, a.s.
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Martin Kalcher
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: James Coleman
+  bio: Architect for Data Engineering
+  country: United States
+  address: United States
+  image: /assets/img/james_coleman.jpeg
+  about: "James Coleman is the Architect for Data Engineering at Braintree Payments. His principal duties include architecture of data access and storage across all layers of the stack from the application to platform, but he also enjoys having his fingers in the technical weeds wherever possible. Since Postgres 12 he's been an active contributor to the PostgreSQL codebase, including the addition of incremental sort in PG13."
+  twitter: "https://twitter.com/jt_coleman" 
+  github: "https://github.com/jcoleman"
+  linkedin: 
+  company: Braintree Payments
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: James Inform
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Mary Xu
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/mary-xu.png
+  about: "I'm a graduate of the University of Wisconsin-Madison who studied Computer Science with a minor in Business. I enjoy working in a collaborative team setting and am passionate about learning a breadth of programming skills. Currently, I am a Software Engineer at Google working on Personalized Service Health."
+  github: 
+  linkedin: "https://www.linkedin.com/in/yxu2162/"
+  company: Google
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Masahiko Sawada
+  bio: Senior Software Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/masahiko_sawada.jpeg
+  about: "I’m a PostgreSQL major contributor and committer and insterested in replication, vacuum, distributed transaction, bug fixing and patch review. Also I’m a maintainer of some PostgreSQL related tools: pg_bigm、pg_repack."
+  github: "https://github.com/MasahikoSawada"
+  twitter: "https://twitter.com/masahiko_sawada?lang=en"
+  linkedin: "https://www.linkedin.com/in/masahikosawada/?originalSubdomain=jp"
+  company: Amazon Web Services
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: James Vanns
+  bio: Principal Production Engineer
+  country: United Kingdom  
+  address: United Kingdom 
+  image: /assets/img/James Vanns.jpeg
+  mediaLink: 
+  about: "Specialties: 
+- 22 years Linux System Administration and Engineering
+- 20 years Linux C/C++ tools, network services and systems programming
+- 15 years System design and Architecture
+- Agile Project Management
+- Good documentation skills
+- Mentoring
+- Interests lie in HPC and distributed systems, infrastructure development etc."
+  twitter:
+  github: "https://github.com/jvanns"
+  linkedin: "https://www.linkedin.com/in/james-vanns/?originalSubdomain=uk"
+  company: Industrial Light & Magic
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Masahiro Ikeda
+  bio: Platform Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/masahiro-ikeda-6ba290119/?originalSubdomain=jp"
+  company: NTT Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Jan Wieck
+  bio: Principal PostgreSQL Engineer
+  country: United States
+  address: United States
+  image: /assets/img/jan_wieck.png
+  about: "Wieck has been part of the Postgres Community since 1996 and has authored several key features. Wieck began contributing to PostgreSQL in 1996 and previously served as a member of the PostgreSQL Global Development Group Core Team. He designed and implemented Slony, an early data replication system for PostgreSQL, and worked on many of the foundational PostgreSQL features, including the query rewrite rule system, the procedural languages PL/pgSQL and PL/Tcl, foreign keys, bgwriter, the statistics collector, the TOAST system and more."
+  github: "https://github.com/wieck"
+  twitter:
+  linkedin: "https://www.linkedin.com/in/jan-wieck-3140812/"
+  company: pgEdge
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Japin Li
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Jeevan Ladhe
+  bio: Database Engineering
+  country: India
+  address: India
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/jeevan-ladhe-47808b9/"
+  company: EnterpriseDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Masao Fujii
+  bio: Database Technical Lead
+  country: Japan
+  address: Japan
+  image: /assets/img/masao-fujii.png
+  about: 
+  github: 
+  twitter: "https://twitter.com/fujii_masao"
+  linkedin: "https://www.linkedin.com/in/masao-fujii-19b307116/"
+  company: NTT Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Mason Sharp
+  bio: Principal Engineer
+  country: United States
+  address: United States
+  image: /assets/img/mason-sharp.jpg
+  about: "Fan of all things data. Database clustering, scalability and parallel processing, RDBMS, NewSQL, Postgres-XL (core developer), Postgres-XC, PostgreSQL, Stado, Big Data. Database and software architect, application designer, manager."
+  github: 
+  twitter: "https://twitter.com/mason_db?lang=en"
+  linkedin: "https://www.linkedin.com/in/masonsharp/"
+  company: Immuta
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Jelte Fennema
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/jelte-fennema.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/jeltef/"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Matheus Alcantara
+  bio: Software Engineer
+  country: Brazil
+  address: Brazil
+  image: /assets/img/matheus-alcantara.png
+  about: "I like to understand problems in depth and create scalable, secure and well-documented software. I'm always interested in knowing how the main tools I use on a daily basis are implemented, so I have some contributions to open source software such as gopls (Go language server) and PostgreSQL."
+  github: "https://github.com/msAlcantara"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/matheus-alcantara/?originalSubdomain=br"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Jehan-Guillaume de Rorthais
+  bio: DBA PostgreSQL
+  country: France
+  address: France
+  image: /assets/img/jehan-guillaume-de-rorthais.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/ioguix/"
+  company: Dalibo
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Mats Kindahl
+  bio: Database Architect
+  country: Sweden
+  address: Sweden
+  image: /assets/img/mats-kindahl.png
+  about: "Software Developer with focus on distributed systems and databases. Currently works for Timescale and focuses on time-series oriented databases."
+  github: 
+  twitter: "https://twitter.com/mkindahl?lang=en"
+  linkedin: "https://www.linkedin.com/in/matskindahl/"
+  company: Timescale
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Jeff Janes
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/jeffjanes"
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Jian He
+  bio: PostgreSQL enthusiast
+  country: China
+  address: China
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/jian-he-77534b211/"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Matthias van de Meent
+  bio: Software Engineer
+  country: Netherlands
+  address: Netherlands
+  image: /assets/img/Matthias van de Meent.jpg
+  about: "I’m Matthias van de Meent, a PostgreSQL hacker from the Netherlands. I’ve been hacking on PostgreSQL since September 2020, which initially consisted of contributing bug fixes. Since October 2021 I’m full-time employed at Neon to improve PostgreSQL and Neon’s storage system for PostgreSQL."
+  github: "https://github.com/mmeent"
+  twitter: "https://twitter.com/mmeent_pg"
+  linkedin: "https://www.linkedin.com/in/matthias-van-de-meent-4464a16a/"
+  company: Neon Database
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Jim Jones
+  bio: Research Associate
+  country: Germany
+  address: Germany
+  image: /assets/img/jim-jones.png
+  about: "PostgreSQL Database Administrator: Design, Deployment, Maintenance, Query Tuning, SQL and PL/pgSQL Scripting, Database Monitoring, Backup, Disaster Recovery. Fields of research: Linked Data, Linked Geographic Data, Relational Databases, Geographic Databases, Ontology, Engineering, Digital Humanities."
+  github: "https://github.com/jimjonesbr"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/jim-jones-6a32a4122/"
+  company: University of Münster
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Jinbao Chen
+  bio: 
+  country: China
+  address: China
+  image: /assets/img/jinbao-chen.png
+  about: 
+  github: "https://github.com/baobao0206"
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Joel Jacobson
+  bio: Developer
+  country: Sweden
+  address: Sweden
+  image: /assets/img/user.png
+  about: "I’ve been using PostgreSQL almost every day since 2002. Recently, I started getting involved in the community around this fantastic RDBMS. I’m the backend architect and DBA at Trustly Group AB, a company processing millions of physical bank transactions."
+  github: "https://github.com/gluefinance"
+  twitter:
+  linkedin: "https://www.linkedin.com/in/joel-jacobson-888a4910/"
+  company: Trustly
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: John Naylor
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: "John Naylor is a PostgreSQL enthusiast and contributes regularly to 2ndQuadrant blog"
+  github:
+  twitter: 
+  linkedin:
+  company: EDB
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Matthijs van der Vleuten
+  bio: Software Engineer
+  country: Netherlands
+  address: Netherlands
+  image: /assets/img/Matthijs van der Vleuten.jpg
+  about: 
+  github: "https://github.com/zr40"
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Maxim Orlov
+  bio: Founder
+  country: Netherlands
+  address: Netherlands
+  image: /assets/img/maxim-orlov.png
+  about: "I enjoy creating programming videos on YouTube and occasionally live streaming my work on Twitch. And for those who are curious about my nomadic lifestyle, I offer a glimpse into my personal life on Instagram."
+  github: "https://github.com/Maximization"
+  twitter: "https://twitter.com/_maximization"
+  linkedin: "https://www.linkedin.com/in/maximorlov/"
+  company: Maxim Orlov
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Maxim Yablokov
+  bio: Project Manager
+  country: United Arab Emirates
+  address: United Arab Emirates
+  image: /assets/img/maxim-yablokov.png
+  about: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/myablokov/?locale=en_US"
+  company: Network International
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Mehmet Emin Karakas
+  bio: Database Administrator
+  country: Turkey
+  address: Turkey
+  image: /assets/img/Mehmet Emin Karakas.jfif
+  about: 
+  twitter: "https://twitter.com/emin_100"
+  linkedin: "https://www.linkedin.com/in/mehmet-emin-karakas/?originalSubdomain=tr"
+  github: "https://github.com/emin100"
+  company: Jotform
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Melanie Plageman
+  bio: Developer
+  country: United States
+  address: United States
+  image: /assets/img/melanie-plageman.png
+  about: "My passion is solving interesting technical problems and writing maintainable code and tests which enhance the accessibility of programming to new contributors. Most recently I have been developing improvements to parallel hash join in PostgreSQL. I speak at conferences on database internals and host workshops on contributing to open source software."
+  twitter: "https://twitter.com/melanieplageman?lang=en"
+  linkedin: "https://www.linkedin.com/in/melanieplageman/"
+  github: "https://github.com/melanieplageman"
+  company: Microsoft
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Melih Mutlu
+  bio: Software Engineer
+  country: Turkey
+  address: Turkey
+  image: /assets/img/mustafa-melih-mutlu.png
+  about: "Actively contributing to PostgreSQL as an open-source contributor since version 16. Recently helping on improving logical replication.Experienced in building distributed systems on cloud environments. I have worked on developing features for Azure's managed PostgreSQL services. Mostly focused on backup and restore capabilities. Spent a fair amount of my time on on-call duties, helping customers."
+  twitter: "https://twitter.com/melihmtl?lang=en"
+  linkedin: "https://www.linkedin.com/in/melihmtl/?originalSubdomain=tr"
+  github: 
+  company: Microsoft
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Josef Simanek
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Joseph Koshakow
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/joseph-koshakow.png
+  about: "I am a software developer with a passion for databases, distributed systems, and open source software"
+  github: "https://github.com/jkosh44/"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/jkoshakow/"
+  company: Materialize
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Juan José Santamaría Flecha
+  bio: Software Engineer
+  country: Spain
+  address: Spain
+  image: /assets/img/juan-jose-santamaria-flecha.png
+  about:
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/juan-jos%C3%A9-santamar%C3%ADa-flecha-623b2374/"
+  company: Minsait
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Julien Rouhaud
+  bio: Staff Engineer
+  country: Taiwan
+  address: Taiwan
+  image: /assets/img/julien-rouhaud.png
+  about: "I've been working with PostgreSQL since 2008 as a DBA, software engineer and PostgreSQL contributor. During that time I wrote software using PostgreSQL, and contributed to it writing new features, fixing bugs and reviewing code. I'm a recognized PostgreSQL Major Contributor."
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/rjuju/"
+  company: VMware
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Julien Roze
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/julien-roze/overlay/contact-info/"
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Junwang Zhao
+  bio: Software Engineer
+  country: Canada
+  address: Canada
+  image: /assets/img/junwang-zhao.png
+  about:
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/yannickzj/"
+  company: Brex
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Micah Gate
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Michael Banck
+  bio: PostgreSQL Team Lead
+  country: Germany
+  address: Germany
+  image: /assets/img/michael_banck.jpeg
+  about: "Michael Banck is the PostgreSQL team lead at credativ (now part of NetApp). He joined the company in 2009 and is a Debian Developer since 2001, besides being active in several other open source projects like PostgreSQL and Patroni. Leading the PostgreSQL team, he has consulted and supported numerous customers over the years, both in the daily operations of PostgreSQL and in the planning and implementation of high-availability and other solutions. Michael has presented talks at various Open Source conferences including FOSDEM, PGConf.EU, PGDay Chicago, Postgres Vision, Percona Live, DebConf and FrOSCon as well as being on the talks committe of both DebConf and PGConf.DE."
+  github: "https://github.com/mbanck"
+  twitter: "https://twitter.com/mbanck?lang=en"
+  linkedin: "https://www.linkedin.com/in/mbanck/"
+  company: Credativ GmbH
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Michael Paquier
+  bio: Engineer at AWS
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: "Open-source (Mostly DB related) engineer used to working in an multinational environment, living in Japan for a pretty long time. My main focus is development of database core engine, mainly on open source database PostgreSQL with many contributions to core as well as to a couple of drivers."
+  github: 
+  twitter: "https://twitter.com/michaelpq"
+  linkedin: "https://www.linkedin.com/in/michaelpq/"
+  company: VMware
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Michail Nikolaev
+  bio: 
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/michail-nikolaev"
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Michel Pelletier
+  bio: Senior Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/michelp"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/michel-pelletier-4b0752262/"
+  company: Supabase
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Mike Oh
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Mikhail Gribkov
+  bio: Software Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/mikhail-gribkov.jpg
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/mikhail-gribkov-3645101/"
+  company: Postgres Proffesional
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Mingli Zhang
+  bio: Sr. Member of Technical Staff
+  country: China
+  address: China
+  image: /assets/img/Mingli Zhang.jfif
+  about: "Postgres contributor. Cloudberry & Greenplum Committer."
+  github: "https://github.com/avamingli"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/zml/?originalSubdomain=cn"
+  company: VMware
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Miroslav Bendik
+  bio: Founder
+  country: Slovakia
+  address: Slovakia
+  image: /assets/img/user.png
+  about: "I'm an software engineer with over several years of experience in Programming. My core competency is focused on backend development, however I've recently expanded my skills to frontend development using HTML, CSS and JavaScript for building mobile applications. In my previous work, I also developed desktop projects as well. The most recent one that I created was a web application used by approximately 300 employees"
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/miroslavbendik/"
+  company: Miroslav Bendik
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Mitsuru Hinata
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Naeem Akhter
+  bio: Software Engineer
+  country: Pakistan
+  address: Pakistan
+  image: /assets/img/naeem-akhter.png
+  about: "Naeem Akhter has a diverse and extensive work experience in the technology industry. Naeem is currently working as a Software Engineer - PostgreSQL at Percona since July 2021. Prior to that, they worked at EDB as a Software Architect from October 2019 to July 2021. Before EDB, Naeem served as a Cloud Architect at Optera Digital from July 2018 to September 2019. Naeem also worked at EDB as an A Architect from March 2013 to June 2018. Additionally, Naeem has experience as a Software Consultant at Infinal Technologies from August 2012 to February 2013, a System Analyst at e-Tex Solutions from June 2007 to July 2012, and a Software Engineer at Karolinska Institutet from August 2004 to June 2005. Naeem began their career as a Software Engineer at Makabu Pvt Ltd from May 2002 to September 2003."
+  github: "https://github.com/Naeem-Akhter"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/naeem-akhter-372b6239/"
+  company: PostgreSQL-Percona
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Naoki Okano
+  bio: 
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Nathan Bossart
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/nathan_bossart.jpeg
+  about: "Software engineer with a driving interest in how the complex technological environment I have been raised in can be expanded and simplified in order to provide standardized, efficient means of connecting with the real world. Particularly attracted to new platforms for broadening accessibility to useful computing resources."
+  github: "https://github.com/nathan-bossart"
+  twitter: "https://twitter.com/nathanbossart"
+  linkedin: "https://www.linkedin.com/in/nbossart/"
+  company: Amazon Web Services 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Nazir Bilal Yavuz
+  bio: Software Engineer
+  country: Turkey
+  address: Tutrkey
+  image: /assets/img/nazr-bilal-yavuz.png
+  about: "Engineer on the Postgres team at Microsoft. Works on continuous integration/continuous development (CI/CD). BS in Computer Engineering from Middle East Technical University. Puzzle solver."
+  github: "https://github.com/nbyavuz"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nbilalyavuz/"
+  company: Microsoft
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Neha Sharma
+  bio: Database Administrator DBA
+  country: Canada
+  address: Canada
+  image: /assets/img/neha-sharma.png
+  about: "Working experience of providing technical and operational support for activities of Database Servers, including logical and physical database design support, troubleshooting, performance monitoring, tuning, and optimizing. 6+ years of experience in Oracle, IBM DB2, PostgreSQL, MySQL database administration with handling big production databases. have experience in PostgreSQL,oracle,DB2 database architecture, logical and physical design, automation, documentation, installs, shell scripting, PL/ SQL programming, catalog navigation, query tuning, system tuning, resource contention analysis, backup and recovery, standby, replication, etc."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/neha-sharma-6244021b4/"
+  company: Infosys
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Nick Babadzhanian
+  bio: Senior Developer
+  country: Germany
+  address: Germany
+  image: /assets/img/user.png
+  about:
+  github: "https://github.com/pgnickb"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nick-babadzhanian-a42333183/"
+  company: EDB
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Justin Pryzby
+  bio: System Administrator
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: "Justin Pryzby has been working as a System Administrator at Telsasoft for 6 years. Telsasoft is part of the Telecommunications industry, and located in Minnesota, United States."
+  github: "https://github.com/justinpryzby"
+  twitter: 
+  linkedin: 
+  company: Telsasoft
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Nicola Contu
+  bio: Senior Database
+  country: Italy
+  address: Italy
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nicola-contu-48238723/"
+  company: GTT
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Justin Zhang
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/justin-zhang.png
+  about:
+  github: "https://github.com/justinpryzby"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/ju5tinz/"
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Nikhil Shetty
+  bio: Account Based Marketing
+  country: India
+  address: India
+  image: /assets/img/nikhil-shetty.jpg
+  about: "Marketing at IBM, voracious data consumer, startup hopeful, excited about tech, marketing, politics, design, movies. Forever learner."
+  github: 
+  twitter: "https://twitter.com/nikhilshetty?lang=en"
+  linkedin: "https://www.linkedin.com/in/nikhilshetty/"
+  company: IBM
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Karina Litskevich
+  bio: 
+  country:
+  address:
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Nikita Glukhov
+  bio: Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: "Nikita is a PostgreSQL developer at Postgres Professional, a PostgreSQL contributor since 2016. He works on core code improvements related to jsonb (jsonpath, SQL/JSON), index access methods. He is also involved in a development of PostgresPro fork of a PostgreSQL."
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Karl O. Pinc
+  bio: 
+  country:
+  address:
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Keisuke Kuroda
+  bio: 
+  country:
+  address:
+  image: /assets/img/user.png
+  about:
+  github: "https://github.com/kiskk"
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Nikolay Samokhvalov
+  bio: Founder
+  country: United States
+  address: United States
+  image: /assets/img/nikolay-samokhvalov.png
+  about: "I chose Computer Science and, particularly, Databases specialization almost in the beginning – and stick to it, without regrets. Databases are at heart of nearly any computer system!"
+  github: "https://github.com/NikolayS"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/samokhvalov/"
+  company: Database Lab
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Ken Kato
+  bio: IT Specialist
+  country:
+  address:
+  image: /assets/img/user.png
+  about: "After two years of hard work, I managed to graduate from OMSCS. It was challenging to balance both work and study simultaneously, but it provided me with a valuable opportunity to explore various areas of computer science. Although this marks the completion of my graduate studies, I remain eager to continue my learning journey."
+  github: "https://kkato.dev/"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/ken-kato/?originalSubdomain=jp"
+  company: NTT Data
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Nikolay Shaplov
+  bio: Freelancer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nikolay-shaplov-92a979aa/"
+  company: Freelancer
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Kevin McKibbin
+  bio: 
+  country:
+  address:
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Nishant Sharma
+  bio: Staff SDE 1A
+  country: India
+  address: India
+  image: /assets/img/nishant-sharma.png
+  about: "Dev in PostgreSQL, Dev in SAP IQ and SAP HANA Datalake, Dev in Embedded Systems."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nishant-sharma-680201108/?originalSubdomain=in"
+  company: EDB
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Kieran McCusker
+  bio: 
+  country:
+  address:
+  image: /assets/img/user.png
+  about:
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Nitin Jadhav
+  bio: Software Engineer
+  country: India
+  address: India
+  image: /assets/img/user.png
+  about: "PostgreSQL Contributor. Worked on SQLite internals and currently working on PostgreSQL internals. Have experience on contributing to various phases of database internals."
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nitin-jadhav-b4807950/"
+  company: EnterpriseDB Software India Pvt Ltd.
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Kirk Wolak
+  bio: Software Architect
+  country: United States
+  address: United States
+  image: /assets/img/kirk-wolak.png
+  about:
+  github: "https://github.com/kirkw"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/kirk-wolak-7706737/"
+  company: KiraSoft, Inc
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Noah Misch
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about:
+  github: "https://github.com/nmisch"
+  twitter: 
+  linkedin: 
+  company: Google Cloud Platform. Cloud SQL
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Noboru Saito
+  bio: Software Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about:
+  github: "https://github.com/noborus"
+  twitter: "https://twitter.com/noborus?lang=en"
+  linkedin: "https://www.linkedin.com/in/noboru-saitou/"
+  company: Shimane
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Noriyoshi Shinoda
+  bio: Database Consultant
+  country: Japan
+  address: Japan
+  image: /assets/img/shinoda-noriyoshi.png
+  about:
+  github: "https://github.com/nori-shinoda"
+  twitter: "https://twitter.com/nori_shinoda"
+  linkedin: "https://www.linkedin.com/in/shinoda-noriyoshi-7b437a66/?originalSubdomain=jp"
+  company: Hewlett Packard Enterprise
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Nuko Yokohama
+  bio: 
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about:
+  github: "https://github.com/nuko-yokohama"
+  twitter: "https://twitter.com/nuko_yokohama"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Oleg Bartunov
+  bio: CEO
+  country: Russia
+  address: Russia
+  image: /assets/img/oleg-bartunov.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/olegbartunov/"
+  company:  Postgres Professional
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Oleg Tselebrovskiy
+  bio: 
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/Medvecrab"
+  twitter: 
+  linkedin: 
+  company:  
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Sven Klemm
+  bio: 
+  country: Germany
+  address: Germany 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/svenklemm"
+  linkedin: 
+  company: Timescale 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Takamichi Osumi
+  bio: Software Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/Takamichi Osumi.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: Fijutsu
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Takeshi Ideriha
+  bio: Cloud Support Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/takeshi_ideriha.jpeg
+  about: 
+  twitter: 
+  github: "https://github.com/tideri"
+  linkedin: "https://www.linkedin.com/in/takeshi-ideriha-58521019b/?originalSubdomain=jp"
+  company: Amazon Web Services
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false  
+- name: Tatsuhiro Nakamori
+  bio: Research Assistant
+  country: Japan
+  address: Japan
+  image: /assets/img/tatsuhiro_nakamori.jpeg
+  about: 
+  twitter: 
+  github: "https://github.com/akorotkov"
+  linkedin: "https://www.linkedin.com/in/tatsuhiro-nakamori-a48772243/?originalSubdomain=jp"
+  company: Keio University ·
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Tatsuo Ishii
+  bio: 
+  country: Japan
+  address: Japan
+  image: /assets/img/tatsuo_ishii.jpg
+  about: 
+  github: "https://github.com/tatsuo-ishii"
+  linkedin:
+  company: SRA OSS,Inc
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true  
+- name: Ted Yu
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false  
+- name: Teja Mupparti
+  bio: Principal Engineer
+  country: United States 
+  address: United States 
+  image: /assets/img/teja_mupparti.jpeg
+  about: "As a principal engineer for open source database Postgres, Teja Mupparti is responsible for supporting Microsoft’s customers betting on Postgres database for their business. His team builds Azure database services for MariaDB, MySQL, and PostgreSQL as well as the Azure Database Migration Service. Prior to joining the Azure, Mupparti was working on enhancing and adding new features for the in-house databases built on Postgres server for major cloud companies. Before moving to Postgres database, he was a Consulting Member Tech staff and Staff engineer at Oracle and Sybase/SAP respectively, working on their proprietary relational databases. He has a M.S. in Computer Science and over 19 years of industry experience."
+  twitter: "https://twitter.com/TejaMupparti"
+  github: 
+  linkedin: "https://www.linkedin.com/in/teja-mupparti-3218941/"
+  company: Microsoft 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false  
+- name: Tender Wang
+  bio: PieCloudDB kernel developer
+  country: China 
+  address: China 
+  image: /assets/img/tender_wang.jpeg
+  about: 
+  twitter: 
+  github: "https://github.com/TenderWang"
+  linkedin: "https://www.linkedin.com/in/tender-wang-966a3a127/?originalSubdomain=cn"
+  company: OpenPie 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false  
+- name: Teodor Sigaev
+  bio: Chief Technology Officer, Co-Founder
+  country: Russia
+  address: Russia
+  image: /assets/img/teodor_sigaev.jpeg
+  about: "Teodor, a PostgreSQL Major Contributor and PostgreSQL Committer, has been a PostgreSQL developer since 2000. Together with Oleg Bartunov, he created the PostgreSQL full-text search system and worked on semi-structured data support, new index access methods, including spatial data, and more."
+  twitter: 
+  github: "https://github.com/feodor"
+  linkedin: "https://www.linkedin.com/in/teodor-sigaev-559b4477/?originalSubdomain=ru"
+  company: Postgres Professional
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false  
+- name: Thiago Nunes
+  bio: Senior Software Engineer
+  country: Australia
+  address: Australia 
+  image: /assets/img/thiago_nunes.jpeg
+  about: "Passionate programmer. Currently improving knowledge on: 
+  - Distributed Systems
+  - Functional Programming: Scala, Category Theory
+  - Data Analysis: Spark, Google Big Query
+  Love to find new ways to express ideas with different programming paradigms. Very interested in software development practices, software quality, programming languages / paradigms, big data analysis, spark, map reduce, cassandra.
+  Participated on several projects using Agile Practices, such as TDD, pair programming, collective ownership, continuous integration and some of continuous delivery. In this context, also participated on several client project inceptions, defining user stories, acceptance criteria, release planning, iteration planning, retrospectives and so on.
+  Working with technologies such as: 
+  - Scala, Spark, Docker, Kubernetes, Cassandra
+  Experienced on distributed software development, getting in touch on a daily basis with the client."
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/thiagotnunes/"
+  company: Google 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false  
+- name: Thom Brown
+  bio: PostgreSQL Consultant
+  country: United Kingdom 
+  address: United Kingdom
+  image: /assets/img/thom_brown.jpeg
+  about: "Experienced technology professional with a strong focus on databases, open-source solutions, and customer support. As a Principal Support Engineer at EDB, I have dealt with a wide range of issues, from critical system crises to functionality inquiries. My former role as an Engineering Project Manager allowed me to lead the co-ordination of development and planning phases for EDB's flagship product, ensuring the delivery of high-quality solutions on time."
+  twitter: "https://twitter.com/darkixion"
+  github: "https://github.com/darkixion"
+  linkedin: "https://www.linkedin.com/in/thom-brown-uk/"
+  company: 
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Thomas Habets
+  bio: Staff SRE
+  country: United Kingdom
+  address: United Kingdom 
+  image: /assets/img/user.png
+  about: "Network engineer, software developer, and systems engineer combining a broad technical base with in-depth knowledge of network design & operations as well as program development for high availability and high performance systems on Unix.
+  Specialties: Distributed systems, Cloud, computer security, ISP networks (Cisco, Juniper, MPLS, BGP, IPv6, mobile broadband, GGSN, etc...), monitoring, Linux, Unix, Python, C/C++, Go.
+  I maintain some minor open source software such as arping, sshkey-audit, simple-tpm-pk11, and am de facto maintainer of the Google Authenticator PAM module."
+  twitter: "https://twitter.com/thomashabets"
+  github: "https://github.com/ThomasHabets"
+  linkedin: "https://www.linkedin.com/in/thomashabets/"
+  company: Google 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false 
+- name: Koshi Shibagaki
+  bio: Software Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/koshi-shibagaki-74b261261/?trk=people_directory&originalSubdomain=jp"
+  company: Fijutsu
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false  
+- name: Kotaro Kawamoto
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/kawamochi"
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false  
+- name: Kui Liu
+  bio: Software Developer
+  country: Unted States
+  address: Unted States
+  image: /assets/img/kui-liu.png
+  about: "Specialties: - computer vision and image analysis - Deep learning(YOLO, Transfer Learning, ResNet, GANs) and object detection and classification, anomaly detection and action recognition - Computer vision and cloud computation - HSI, Satellite imagery, UAV imagery, FMV, SAR, ISR, IMINIT, GEOINT - Python, C/C++, CUDA, HyperQ - OpenCV, AWS Lambda, EC2 autoscaling, S3"
+  twitter: 
+  github: "https://github.com/dannyblueliu"
+  linkedin: "https://www.linkedin.com/in/kui-liu-94b09123/"
+  company: Zebra Technologies
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false  
+- name: Kyotaro Horiguchi
+  bio: Consultant and developer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: "Kyotaro Horiguchi works as a consultant and developer for NTT Open Source Software.Kyotaro Horiguchi has been involved with PostgreSQL since 2011, when he joined NTT OSS center and currently leading developing some PostgreSQL-related tools including pg_statsinfo and some planner-related tools. He also is involved with developing of PG-REX, currently a PostgreSQL HA solution based on Pacemaker, which is the projenitor of the streaming replication feature of PostgreSQL."
+  twitter: 
+  github: "https://github.com/horiguti"
+  linkedin:
+  company: NTT Open Source Software
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Lakshmi Narayanan Sreethar
+  bio: Senior Software Engineer
+  country: India
+  address: India
+  image: /assets/img/lakshmi-narayanan-sreethar.png
+  about: "I have a decade of experience working in the development of distributed, highly available, in-memory databases, with a focus on MySQL Cluster and PostgreSQL. I am skilled in C/C++, Go, Kubernetes, Linux, Data Structures and Algorithms, and have a strong background in Database and Information Retrieval. I recently led the design and development of a Go Kubernetes Operator for MySQL Cluster, which is now available on Github. I also contributed to the integration of the new Data Dictionary and the Foreign Key schema handling of the Ndbcluster plugin for MySQL 8.0. I enjoy working on challenging and innovative projects that solve real-world problems and improve database performance and scalability."
+  twitter: "https://twitter.com/lkshminarayanan"
+  github: "https://github.com/lkshminarayanan"
+  linkedin: "https://www.linkedin.com/in/lkshminarayanan/?originalSubdomain=in"
+  company: CoreDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Laurence Parry 
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github:
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Olly Betts
+  bio: Founder
+  country: New Zealand
+  address: New Zealand
+  image: /assets/img/user.png
+  about: "I've written Survex - a software package to help those surveying and make maps of caves. It was originally written for CUCC's Austria explorations, but is now used by many other cave surveying projects around the world."
+  twitter: 
+  github: "https://github.com/ojwb"
+  linkedin:
+  company: Oligarchy
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: false
+- name: Onder Kalaci
+  bio: Principal Software Engineer
+  country: Turkey
+  address: Turkey
+  image: /assets/img/onder-kalaci.png
+  about: 
+  linkedin: "https://www.linkedin.com/in/%C3%B6nder-kalac%C4%B1-91945339/"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: false
+- name: Onur Tirtir
+  bio: Senior Software Engineer
+  country: Turkey
+  address: Turkey
+  image: /assets/img/Onur Tirtir.jpeg
+  about: 
+  github: "https://github.com/onurctirtir"
+  twitter: "https://twitter.com/onurctirtir"
+  linkedin: "https://www.linkedin.com/in/onur-tirtir/?originalSubdomain=tr"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Pablo Federico
+  bio: DevOps Engineer
+  country: Brazil
+  address: Brazil
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/pablo-federico-no%C3%A9-iwao-3a8b97150/"
+  company: University of Buenos Aires
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Palle Girgensohn
+  bio: Founder
+  country: Sweden
+  address: Sweden
+  image: /assets/img/palle-girgensohn.png
+  about: 
+  github: "https://github.com/girgen"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/palle-girgensohn-702586/"
+  company: Ping Pong AB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Paul Guo
+  bio: Information Architect
+  country: Australia
+  address: Australia
+  image: /assets/img/paul-guo.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/paul-guo-447a09b9/"
+  company: IAG
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Paul Jungwirth
+  bio: President
+  country: United States
+  address: United States
+  image: /assets/img/paul-jungwirth.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/paul-jungwirth-a696484/"
+  company: Illuminated Computing Inc.
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Paul Ramsey
+  bio: Executive Geospatial Engineer
+  country: Canada
+  address: Canada
+  image: /assets/img/paul-ramsey.png
+  about: "Open source and enterprise IT expert, with specialization in geospatial technology. Building large geospatial systems, hacking on PostGIS, working with open source communities, and leading technology teams to build amazing things."
+  github: "https://github.com/pramsey"
+  twitter: "https://twitter.com/pwramsey?lang=en"
+  linkedin: "https://www.linkedin.com/in/paul-ramsey-717134/"
+  company: Crunchy Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Pavel Borisov
+  bio: PostgreSQL Core Expert
+  country: Singapore
+  address: Singapore
+  image: /assets/img/pavel-borisov.png
+  about: "PostgreSQL community contributor. Skilled in Software engineering, RDBMS and physics. A Master's Degree in Physics and Applied Mathematics from Moscow Institute of Physics and Technology (State University) (MIPT)."
+  github: "https://github.com/pashkinelfe"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/pborisov/?originalSubdomain=ge"
+  company: Supabase
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Pavel Kulakov
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: "I love software development and so into complex tasks, maths and algorithms. Mainly I write back-end apps using C# and .NET Core. In my projects I work on architecture design and deployment processes. I have a pretty knowledge of networking, DBMS and software-hardware interaction."
+  github: "https://github.com/k-paul-acct"
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Pavel Luzanov
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/pavel_luzanov.jpg
+  about: "My first project after joining Postgres Pro was to translate the PostgreSQL documentation into Russian. After all, I started translating it even before I joined the company. But it’s one thing to translate a couple of chapters and quite another to translate the entire documentation. In the beginning, we tried different approaches to translation, but things got pretty slow. But then Alexander Lakhin came to the company. He is an incredible person. He translates with amazing speed and quality. Alexander not only translated the entire documentation for 9.4 to completion, he has been updating the documentation for new versions every year since. Now I am sure he is almost done with version 14."
+  github: 
+  twitter: 
+  linkedin: 
+  company: Postgres Proffesional
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Pavel Stehule
+  bio: PostgreSQL Evangelist
+  country: Czech Republic
+  address: Czech Republic
+  image: /assets/img/pavel-stehule.png
+  about: "I am an independent developer, consultant and lecturer. My work is 100% related to Postgres - training, solving customer performance issues, writing patches, bug fixing …"
+  github: "https://github.com/okbob"
+  twitter: "https://twitter.com/pavel_stehule"
+  linkedin: "https://www.linkedin.com/in/stehule/?originalSubdomain=cz"
+  company: Freelancer
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Peifeng Qiu
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Peter Geoghegan
+  bio: Senior PostgreSQL Engineer, RDS Open Source
+  country: United States
+  address: United States
+  image: /assets/img/peter-geoghegan.png
+  about: "Author and reviewer of many features in PostgreSQL RDBMS, with a recent emphasis on in the standard B-Tree index access method and on VACUUM. Also behind many enhancements and bug fixes to PostgreSQL in areas such as concurrency control, logging and recovery, and tuple sorting."
+  github: "https://github.com/petergeoghegan"
+  twitter: "https://twitter.com/petervgeoghegan"
+  linkedin: "https://www.linkedin.com/in/peter-geoghegan-6000772b/"
+  company: Amazon Web Services
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Peter Smith
+  bio: PostgreSQL Contributor
+  country: Australia
+  address: Australia
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter:
+  linkedin: "https://www.linkedin.com/in/peter-smith-08a47543/"
+  company: Fujitsu Australia Software Technology
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Phil Florent
+  bio: 
+  country: France
+  address: France
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/philflorent"
+  twitter:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Philippe Godfrin
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Platon Pronko
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Przemyslaw Sztoch
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/przemyslaw_sztoch.jpeg
+  about: 
+  github: "https://github.com/psztoch"
+  twitter:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Rachel Heaton
+  bio: Engineering Manager
+  country: Canada
+  address: Canada
+  image: /assets/img/rachel_heaton.jpeg
+  about: "I am an experienced Software Engineering leader with a demonstrated history of working in the software industry, as an individual contributor, manager, mentor, and technical leader at companies of all sizes. I am skilled in Ruby, Scrum, Cloud Foundry (and PCF), Agile Methodologies, Golang, Kubernetes, and Postgres."
+  github: 
+  twitter:
+  linkedin: "https://www.linkedin.com/in/rachelheaton/?originalSubdomain=ca"
+  company: WorkRamp
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Ranier Vilela
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Regina Obe
+  bio: President
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: "Regina Obe is a co-founder of Paragon Corporation, a Boston-based PostgreSQL/PostGIS consulting company. She is a member of the PostGIS and GEOS project steering committee, as well as a development team member of several geospatial Projects (PostGIS, GEOS, pgRouting, and on OSGeo System Administration team). She is the maintainer of the PostGIS application stackbuilder Windows Bundle. She has also co-authored several books on PostGIS, pgRouting, and PostgreSQL with her husband, Leo Hsu. They have several new books in the works, due out in 2020."
+  github: 
+  twitter: "https://twitter.com/reginaobe"
+  linkedin: "https://www.linkedin.com/in/regina-obe-2000057/"
+  company: Paragon Corporation 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Reid Thompson
+  bio: Senior Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: "Experienced PostgreSQL DBA / Senior Software Engineer with a demonstrated history of working in the pharmacy & health care industry. Strong engineering professional skilled in Databases(PostgreSQL, sqlite), Ruby, LINUX, C, shell scripting, Open Source technologies."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/jreidthompson/"
+  company: Crunchy Data  
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Reiner Peterke
+  bio: Senior Technical Consultant 
+  country: Netherlands
+  address: Netherlands
+  image: /assets/img/user.png
+  about: "I am a Postgres system specialist committed to helping spread the use of the worlds most advanced open source database. I am not just interested in setting up optimized Postgres systems, but focused also on passing my knowledge and expertise on to others. Understanding how Postgres works makes it easier to create the right solution for the job at hand."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/reinerpeterke/?originalSubdomain=nl"
+  company: Splendid Data Nederland B.V. 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Richard Guo
+  bio: 
+  country: 
+  address:
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/guofengrichard"
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Riivo Kolka
+  bio: Database Developer
+  country: Estonia
+  address: Estonia
+  image: /assets/img/riivo_kolka.jpeg
+  about: "Experienced Geographic Information System Specialist with a demonstrated history of working in the information technology and services industry. Skilled in Manifold GIS, ArcGIS Products, Cartography, PostgreSQL, Oracle, C and Python. Strong information technology professional. "
+  github: "https://github.com/rkolka"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/riivo-kolka/?originalSubdomain=ee"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Laurenz Albe
+  bio: Senior consultant and support engineer
+  country: Austria
+  address: Austria
+  image: /assets/img/laurenz_albe.jpeg
+  about: "Laurenz Albe is a senior consultant and support engineer at CYBERTEC. He has been working with and contributing to PostgreSQL since 2006, has written patches for core, and wrote oracle_fdw. He holds a Master's degree in Mathematics from the University of Vienna and a Master's in Computer Science from the Technical University of Vienna"
+  github: "https://github.com/laurenz"
+  twitter: 
+  linkedin: 
+  company: Cybertec
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Luca Ferrari
+  bio: Software Engineer
+  country: Italy
+  address: Italy
+  image: /assets/img/luca-ferrari.png
+  about: "I've always been interested in software design methodologies and paradigms. During my university experience I studied the above methodologies, as well as MAS systems. Moreover, I had the chance to teach students about such methodologies, as well as MAS, Java and Unix programming (C and Bourne Shell). In my current work I do database and network administration, as well as Linux and FreeBSD system administration. I'm also interested in new technologies and how they can help migration and integration of legacy systems."
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/fluca1978/"
+  company: Università degli Studi di Modena e Reggio Emilia
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Rishu Bagga
+  bio: Software Development Engineer
+  country: United States
+  address: United States
+  image: /assets/img/rishu_bagga.jpeg
+  about: "Software Engineer working on Amazon Aurora PostgreSQL Engine. Interested in Distributed Systems, and Database Internals. Music producer and pianist"
+  github: "https://github.com/rbagga"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/rishubagga/"
+  company: Amazon Web Services 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Robert Haas
+  bio: VP, Chief Database Scientist
+  country: United States
+  address: United States
+  image: /assets/img/robert-haas.png
+  about: "I am a PostgreSQL major contributor and committer. PostgreSQL features which I have authored or coauthored include unlogged tables, fast-path locking, index-only scans, and parallel query. PostgreSQL features written by others which I have reviewed and committed include partitioning, logical decoding, event triggers, and foreign tables. I work at EnterpriseDB as VP, Chief Database Architect, managing a team which is responsible for both Advanced Server, EnterpriseDB's flagship database product, and for our company's ongoing contributions to PostgreSQL. My team is great, and PostgreSQL is awesome!"
+  github: 
+  twitter: "https://twitter.com/robertmhaas"
+  linkedin: "https://www.linkedin.com/in/robertmhaas/"
+  company: EnterpriseDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Lukas Fittl
+  bio: Founder
+  country: United States
+  address: United States
+  image: /assets/img/lukas-fittl.png
+  about: "Postgres performance at any scale, through intelligent tuning advisors & continuous database profiling"
+  github: "https://github.com/lfittl"
+  twitter: "https://twitter.com/LukasFittl"
+  linkedin: "https://www.linkedin.com/in/lfittl/"
+  company: pganalyze
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Robert Sjöblom
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: 
+  company:
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Robert Treat
+  bio: Major Contributor, SPI Liason
+  country: United States
+  address: United States
+  image: /assets/img/robert-treat.png
+  about: "Former executive with deep experience in technical and business operations. Open Source advocate. Entrepreneurially inclined. Investor & personal finance enthusiast."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/robtreat/"
+  company: PostgreSQL Global Development Group
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Maciek Sakrejda
+  bio: Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/maciek-sakrejda.png
+  about: "Bit-twiddler and pixel pusher. Enjoys and aspires to good UX. React, Postgres, and unafraid of diving into unfamiliar code."
+  github: "https://github.com/msakrejda"
+  twitter: "https://twitter.com/a_maciek_moment"
+  linkedin: "https://www.linkedin.com/in/maciek-sakrejda-608aa73/"
+  company: pganalyze
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Roberto Mello
+  bio: Principal Solutions Architect 
+  country: United States
+  address: United States
+  image: /assets/img/roberto-mello.png
+  about: "Long time databases and PostgreSQL enthusiast. Done a lot with web services, Python, DevOps, cloud, relational databases and architectures."
+  github: "https://github.com/roberto-mello"
+  twitter: "https://twitter.com/robertobmello"
+  linkedin: "https://www.linkedin.com/in/robertomello/"
+  company: Crunchy Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Maja Zaloznik
+  bio: Full Stack Data Wrangler
+  country: Slovenia
+  address: Slovenia
+  image: /assets/img/maja-zaloznik.png
+  about: "Ex-academic demographer turned data scientist, engineer, analyst and janitor. databases, pipelines, reproducibility, visualisation, reporting."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/maja-zalo%C5%BEnik-26034a84/"
+  company: Urad RS za makroekonomske analize in razvoj
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Robins Tharakan
+  bio: Sr. Postgres Engineer
+  country: Australia
+  address: Australia
+  image: /assets/img/robins-tharakan.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: " https://www.linkedin.com/in/robins/"
+  company: Amazon Web Services 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Marcel Hofstetter
+  bio: CEO
+  country: Switzerland
+  address: Switzerland
+  image: /assets/img/marcel-hofstetter.png
+  about: "Working in the IT industry for more than 25 years now. Oracle ACE Director Solaris Specialised in Datacenter, Server, Solaris 11 and Virtualization technologies (LDoms, Zones) Developing and selling our Deployment and Management Product: Virtual Datacenter Cloud Framework (VDCF)."
+  github: 
+  twitter: "https://twitter.com/marcel_jomasoft"
+  linkedin: "https://www.linkedin.com/in/marcelhofstetter/"
+  company: JomaSoft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Roman Zharkov
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/rzharkov"
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Ronan Dunklau
+  bio: Senior Software Engineer
+  country: France
+  address: France
+  image: /assets/img/ronan_dunklau.jpeg
+  about: 
+  github: "https://github.com/rdunklau"
+  twitter: "https://twitter.com/rdunklau"
+  linkedin: "https://www.linkedin.com/in/ronan-dunklau-59169b139/"
+  company: Aiven
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Rushabh Lathia
+  bio: Database Architect and Director
+  country: India
+  address: India
+  image: /assets/img/rushabh_lathia.jpeg
+  about: "Experienced Technical Architect with a demonstrated history of working in the computer software industry. My exposure spans from the development of database server using C/C++ as the programming language and UNIX as platform. During all this period I have been associated with learning, writing and re-writing the internal modules of RDBMS. Skilled in PostgreSQL Database and other Databases, Unix, Linux, and C Programming Language. "
+  github: 
+  twitter: "https://twitter.com/rlathia?lang=en"
+  linkedin: "https://www.linkedin.com/in/rushabh-lathia-3bb8616/?originalSubdomain=in"
+  company: EnterpriseDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Ryo Matsumura
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Samay Sharma
+  bio: Chief Technology Officer
+  country: United States
+  address: United States
+  image: /assets/img/samay_sharma.jpeg
+  about: "I am the Chief Technology Officer at Tembo, helping build a unified developer platform for data services based on Postgres. I’ve been working with Postgres for over a decade and have a wealth of experience building modern data applications based on open source technologies."
+  github: "https://github.com/samay-sharma"
+  twitter: "https://twitter.com/samay_sharma"
+  linkedin: "https://www.linkedin.com/in/samay-sharma-b6465122/"
+  company: Tembo 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sami Imseih
+  bio: Senior Database Engineer 
+  country: United States
+  address: United States
+  image: /assets/img/sami_imseih.png
+  about: "Sami Imseih is a Database Engineer specialized in PostgreSQL at AWS. Sami has been overseeing mission critical database environments for over a decade. Since 2019, Sami has been helping customers achieve success with database migrations to Amazon RDS for PostgreSQL."
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/samiimseih/"
+  company: Amazon Web Services
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Tor Erik Linnerud
+  bio: 
+  country: United States
+  address: United States
+  image: /assets/img/Tor-Erik-Linnerud.jpg
+  about: "Love building teams and solving problems with Ruby and Postgres. Former Technical Director at AlphaSights."
+  github: "https://github.com/toreriklinnerud"
+  twitter: "https://twitter.com/telinnerud"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Torsten Förtsch
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/torsten_förtsch.jpeg
+  about: 
+  github:
+  twitter: 
+  linkedin: 
+  company: Deriv
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Tristan Partin
+  bio: Software Engineer (Postgres Hacker)
+  country: United States
+  address: United States
+  image: /assets/img/tristan_partin.jpeg
+  about: "I am a Computer Engineering graduate from Texas A&M University. I am primarily focused on systems software, especially if it is open-source focused. I have contributed to many open-source projects including the Heterogeneous-Memory Storage Engine, which I worked on for 2.5 years while at Micron."
+  github: "https://github.com/tristan957"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/tristan-partin/"
+  company: Neon
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Troy Frericks
+  bio: Database Administrator
+  country: United States
+  address: United States
+  image: /assets/img/troy_frericks.jpeg
+  about: 
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/troy-frericks/"
+  company: John Deere
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Tushar Ahuja
+  bio: Senior Staff SDE, Director Database QA
+  country: India
+  address: India
+  image: /assets/img/tushar_ahuja.jpeg
+  about: 
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/tushar-ahuja-3244892/"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Valerie Woolard
+  bio: Data Infrastructure Engineer
+  country: United States
+  address: United States
+  image: /assets/img/valerie-woolard.jpg
+  about: "Software developer with degrees from UC Berkeley and the University of Chicago."
+  github: "https://github.com/valeriecodes"
+  twitter: https://twitter.com/valeriecodes
+  linkedin:
+  company: Heroku
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Victor Spirin
+  bio: 
+  country: Russia
+  address: Russia
+  image: /assets/img/victor_spirin.jpeg
+  about: 
+  github: "https://github.com/VictorSpirin"
+  twitter: 
+  linkedin:
+  company: VVS
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sandeep Thakkar
+  bio: Data Infrastructure Engineer
+  country: India
+  address: India
+  image: /assets/img/sandeep_thakkar.jpeg
+  about: 
+  github: "https://github.com/sandeep-edb"
+  twitter: "https://www.linkedin.com/in/sandeep-thakkar-b1319a8/?originalSubdomain=in"
+  linkedin:
+  company: EnterpriseDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Victoria Shepard
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sandro Santilli
+  bio: Founder
+  country: Italy
+  address: Italy
+  image: /assets/img/sandro_santilli.jpeg
+  about: "Has working experiences in both Italy and North America andhas built a breath of skills focused on the continuos evolution of products/processes/services in the ICT industry. Has a focus toward use, promotion and improvement of Free Software, with skills in community building and project leading."
+  github: "https://github.com/strk"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/sandro-santilli-488947b/?originalSubdomain=it"
+  company: NetLab
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Vignesh C
+  bio: Sofware Lead Developer
+  country: India
+  address: India
+  image: /assets/img/vigneshwaran_c.jpg
+  about: "Currently leading a team, designing and developing features /defect fixes for the open source PostgreSQL database. Write blogs on my feature that gets committed to the open source PostgreSQL database. Present talks on various topics in PostgreSQL conferences. Earlier was part of database tools for in-house databases. Lead a team, designed and developed features for the database tools of in-house databases. I was part of designing and developing features for an in-house database previously."
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/vigneshwaran-c-80b36029/"
+  company: PostgreSQL Global Development Group
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sebastien Flaesch
+  bio: Senior developer / consultant
+  country: France
+  address: France
+  image: /assets/img/sebastien_flaesch.jpeg
+  about: 
+  github: "https://github.com/sebflaesch"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/sebflaesch/?originalSubdomain=fr"
+  company: Four J's Development Tools
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Vik Fearing
+  bio: PostgreSQL Expert
+  country: France
+  address: France
+  image: /assets/img/user.png
+  about: "Vik Fearing is on the CTO team at EDB, and lives in Chouppes, France. He is the founder and co-organizer of pgDay Paris, co-organizer of PostgreSQL Conference Europe, and a volunteer and speaker at many other conferences around the world. He is also a moderator for several of the PostgreSQL mailing lists as well as an IRC channel operator for #postgresql and #postgresql-fr. He is an inaugural member of the PostgreSQL Code of Coduct Committee and part of the team behind the @PostgreSQL Twitter account."
+  github: "https://github.com/xocolatl"
+  twitter: "https://twitter.com/pg_xocolatl"
+  linkedin: "https://www.linkedin.com/in/vik-fearing/?originalSubdomain=fr"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sébastien Lardière
+  bio: Consultant Formateur PostgreSQL
+  country: France
+  address: France
+  image: /assets/img/sébastien_lardière.jpeg
+  about: 
+  github: 
+  twitter: "https://twitter.com/slardiere"
+  linkedin: "https://www.linkedin.com/in/s%C3%A9bastien-lardi%C3%A8re-8381a814/"
+  company: Loxodata
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sehrope Sarkuni
+  bio: Founder
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/sehrope"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/sehrope/"
+  company: JackDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sergey Belyashov
+  bio: 
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/b-s-a"
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sergey Pankov
+  bio: Senior Software Engineer
+  country: Portugal
+  address: Portugal
+  image: /assets/img/user.png
+  about: "As a proficient software engineer specialized in mobile application development with over 10 years of experience, I possess a strong expertise in all stages of product life-cycle development, from ideation to delivery, and have consistently delivered quality products that meet or exceed clients expectations."
+  github: "https://github.com/PankovSerge"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/pankov-serge/"
+  company: QuintoAndar
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Vitaly Burovoy
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/vitaly-burovoy"
+  twitter: 
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Sergey Shinderuk
+  bio: Software Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/sergey-shinderuk-76789a221/"
+  company: Postgres Professional
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Vitaly Davydov
+  bio: Software Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/vitaly_davydov.jpeg
+  about: "Information Technologies Professional with strong software engineering and analytical skills. More than 20 years of various experience in different areas of informational technologies including development of cross-platform multi-threaded software using C++ and other languages, design and implementation of databases, data warehouses, development and support of complex business IT systems."
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/vitprof/?originalSubdomain=ru"
+  company: Postgres Professional 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Shi Yu
+  bio: Associate
+  country: United States
+  address: United States
+  image: /assets/img/yu-shi.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/yushi95/"
+  company: Infosys
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Wang Wei
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/wei-w-621846a8/"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Shinya Kato
+  bio: Database Developer
+  country: Japan
+  address: Japan
+  image: /assets/img/shinya-kato.png
+  about: 
+  github: "https://github.com/shinyaaa"
+  twitter: "https://twitter.com/ShinyaKato_"
+  linkedin: "https://www.linkedin.com/in/shinya-kato-postgresql/"
+  company: NTT Data Group Corporation
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Wenjing Zeng
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Whale Song
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Will Mortensen
+  bio: Senior Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/will-mortensen-10187355/"
+  company: Extrahop
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Wolfgang Walther
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Xin Wen
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Xing Guo
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Xingwang Xu
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: XueJing Zhao
+  bio: R&D Director
+  country: United States
+  address: United States
+  image: /assets/img/xing-wang.png
+  about: "Over 18 years’ experience in Information Technologies as Senior Application Developer / Microsoft Certified Solution Developer (MCSD .NET) includes design and development of Web based and Windows based applications using N-tier architecture"
+  github: "https://github.com/uwspstar/"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/xing-wang-3314a04/"
+  company: LITIGIVEN
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Yanliang Lei
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Youmiu Mo
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Yugo Nagata
+  bio:  Chief Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  about: "Yugo Nagata is a Chief Engineer at SRA OSS, Inc. Japan, and he is in charge of R&D related to PostgreSQL.After joining SRA OSS, Inc. Japan in 2011, he participated in development of Pgpool-II, a cluster tool for PostgreSQL, his first contribution to PostgreSQL development was in 2012. Besides development, he also experienced technical support, consulting, and education of PostgreSQL and other open source software. Bachelor of Science in Engineering and a Master of Information Science from Hokkaido University, Japan."
+  github: "https://github.com/yugo-n"
+  twitter: 
+  linkedin:
+  company: SRA OSS, Inc.
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Yura Sokolov
+  bio: Developer
+  country: Russia
+  address: Russia
+  image: /assets/img/yura-sokolov.png
+  about: 
+  github: "https://github.com/funny-falcon"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/funnyfalcon/"
+  company: Postgres Proffesional
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Yuta Katsuragi
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: NTT Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Zhen Mingyang
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Zheng Li
+  bio: Sofware Engineer
+  country: United States
+  address: United States
+  image: /assets/img/zheng-li.png
+  about: "I am a Senior Applied Scientist from Amazon Search, working on LLM for shopping. Previously, I worked in search Query Understanding (QU) team. I obtained my Ph.D. degree from the Department of Computer Science and Engineering, Hong Kong University of Science and Technology (HKUST). My supervisor is Prof. Qiang Yang. Before joining HKUST, I obtained the B.Eng degree from School of Data and Computer Science, Sun Yat-sen University"
+  github: "https://github.com/hsqmlzno1"
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/zheng-li-1925083a/"
+  company: Amazon
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Zhihong Yu
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/tedyu"
+  twitter: 
+  linkedin:
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
+- name: Zhijie Hou
+  bio: Software Engineer
+  country: China
+  address: China
+  image: /assets/img/Zhijie-Hou.jpg
+  about: "I’ve been contributing patches for new features, bug fixes and improvements. I often share internal technology about PostgreSQL in the company and encourage my colleagues to contribute to PostgreSQL."
+  github: ""
+  twitter: 
+  linkedin:
+  company: Fujitsu
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Zongliang Quan
+  bio: Senior Programmer
+  country: China
+  address: China
+  image: /assets/img/user.png
+  about: 
+  github:
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/zongliang-quan-2b354186/?originalSubdomain=cn"
+  company: Postgres Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Zuming Jiang
+  bio: Software Engineer
+  country: Switzerland
+  address: Switzerland
+  image: /assets/img/Zuming-Jiang.jpg
+  about: 
+  github:
+  twitter: 
+  linkedin:
+  company: Advanced Software Technologies (AST) Lab
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
+- name: Tim Carey-Smith
+  bio: Software Engineer
+  country: United States 
+  address: United States 
+  image: /assets/img/tim-carey.jpg
+  about: "I'm a passionate developer, entrepreneur, and general technology enthusiast living in Philadelphia. I've worked with a bunch of startups to help them develop their ideas into profitable businesses. I specialize in Ruby on Rails, PostgreSQL, Ruby, and JavaScript."
+  twitter: "https://twitter.com/TimCareyCodez"
+  github: "https://github.com/halorgium"
+  linkedin: "https://www.linkedin.com/in/timothyrcarey/"
+  company: The Agency of Learning
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Tim Field
+  bio: 
+  country: New Zealand
+  address:  New Zealand
+  image: /assets/img/tim_field.png
+  about: 
+  twitter: 
+  github: "https://github.com/tim-field"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Timo Stolz
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/TimoStolz"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Tom Lane
+  bio: Postgres contributor
+  country: United States 
+  address: United States 
+  image: /assets/img/tom_lane.png
+  about: "Lane is a member of the core team within the PostgreSQL Global Development Group, which oversees the development and maintenance of one of the world’s most popular and reliable open-source databases, PostgreSQL. Lane is prolific contributor to the PostgreSQL open source project and is involved in all aspects of the PostgreSQL project, including new features, performance improvements, and bug evaluation and fixes."
+  twitter: "https://twitter.com/regardstomlane?lang=en"
+  github: "https://github.com/tglsfdc"
+  linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/"
+  company: Crunchy Data
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: true
+- name: Thomas Mc Kay
+  bio: Principal Software Engineer 
+  country: United States 
+  address: United States 
+  image: /assets/img/Thomas Mc Kay.jpeg
+  about: "At Red Hat, I work on Quay and quay.io. Great product, team, and technologies! Who could ask for more? Every day I get to play with some of the hottest tech around: Python, Docker, full-stack app at massive scale in The Cloud. All in open source!"
+  github: "https://github.com/thomas-mckay"
+  linkedin: "https://www.linkedin.com/in/thomasmckay/"
+  company: Red Hat
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: false
+- name: Tomas Vondra
+  bio: "Senior Principal Engineer / Database Server"
+  country: Czech Republic
+  address: Czech Republic 
+  image: /assets/img/tomas-vondra.png
+  about: "I'm a long-term PostgreSQL developer, contributor and committer. I've authored and co-authored a number of features, including extended optimizer statistics (CREATE STATISTICS), various optimizer improvements, hash join optimizations, specialized memory allocators, performance optimizations, and various other improvements. I work as EDB as a PostgreSQL engineer, where I'm working various internal projects, ongoing contributions to community PostgreSQL, and so on."
+  twitter: "https://twitter.com/fuzzycz"
+  github: "https://github.com/tvondra"
+  linkedin: "https://www.linkedin.com/in/tomasvondra/?originalSubdomain=cz"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: false
+- name: Adrian Klaver
+  bio: Owner
+  country: United States 
+  address: United States 
+  image: /assets/img/adrian_klaver.jpeg
+  about: "I am a self taught programmer working with Python and Javascript. I use Postgresql database for storage and Django and Flask for front end."
+  twitter: 
+  github: "https://github.com/aklaver"
+  linkedin: "https://www.linkedin.com/in/adrian-klaver-a576521b0/"
+  company: Klaver Enterprises 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: false
+- name: Aleksander Alekseev
+  bio: Open-Source PostgreSQL Contributor
+  country: Russia
+  address: Russia
+  image: /assets/img/aleksander_alekseev.jpeg
+  about: "I started as a system administrator in the year 2007 at a small company Vitovt. Afterwards I worked as a software engineer for such companies as RuCenter and Mail.ru Group (now VK Company). Here I choose to include only my recent, most relevant experience."
+  twitter: "https://twitter.com/afiskon"
+  github: "https://github.com/afiskon"
+  linkedin: "https://www.linkedin.com/in/afiskon/?originalSubdomain=ru"
+  company: Timescale
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023
+  multiYear: true
+- name: Myo Wai Thant
+  bio: Director
+  country: Myanmar
+  address: Myanmar
+  image: /assets/img/myo-min-thant.png
+  about: "A recent Computer Science graduate at Worcester Polytechnic Institute with focus in server-side programming and deep learning. I am a fast-learner and have a lot of experience with major programming languages such as Java, Python and NodeJs. I am familiar with working in Agile methodologies and have also interned as a software engineer at Bindez and Nexlabs."
+  twitter: 
+  github: ""
+  linkedin: "https://www.linkedin.com/in/mmthant03/?originalSubdomain=mm"
+  company: Nice Partner
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false

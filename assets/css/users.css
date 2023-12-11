@@ -1,0 +1,691 @@
+.users {
+    border-radius: 15px;
+    background: #F3F3F3;
+    padding: 45px 65px;
+}
+
+.users .wrap {
+    padding-right: 80px;
+}
+
+.users h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.users p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+    width: 430px;
+}
+
+.users p a {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.users p b {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search-bar {
+    margin-top: 44px;
+    height: 59px;
+    width: 100%;
+    border-radius: 29.5px;
+    background: #689CC7;
+    padding: 19px 67px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.search-bar input::placeholder {
+    color: #fff;
+}
+
+.controller {
+    padding: 43px 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controller .inline p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: 1px solid #000;
+    display: inline;
+    margin: 0;
+    margin-right: 28px;
+}
+
+.controller .inline .button {
+    width: 226px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: white;
+    position: relative;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.controller .inline .button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.focused {
+    background-color: #000 !important;
+}
+
+.focused span {
+    color: white !important;
+}
+
+.user {
+    border-radius: 15px;
+    background: #F3F3F3;
+    padding: 42px 67px;
+    margin-top: 55px;
+}
+
+.user .block {
+    display: flex;
+}
+
+.user .wrap {
+    padding-left: 80px;
+}
+
+.user .wrap .name {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 14px;
+    display: block;
+    text-decoration: none;
+}
+
+.user .wrap > div a {
+    margin-bottom: 14px;
+}
+
+.user .wrap .disabled {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 14px;
+    display: block;
+    text-decoration: none;
+}
+
+.user p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.user .country {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.user b {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 19px;
+    display: block;
+}
+
+.user p.about {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#pagination {
+    padding: 60px 100px 150px;
+    position: relative;
+}
+
+#user-list {
+    margin: 0;
+}
+
+#user-list .user .block div > a > img {
+    max-width: 240px;
+    object-fit: cover;
+}
+
+#pagination .flex {
+    margin-bottom: 30px;
+}
+
+#order {
+    margin-bottom: 30px;
+}
+
+#pagination li.page {
+    height: 46px;
+    width: 11.111111111111111111111111111111%;
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: white;
+    position: relative;
+    cursor: pointer;
+}
+
+#pagination .first,
+#pagination .last {
+    display: none;
+}
+
+#pagination .disabled {
+    visibility: hidden !important;
+}
+
+#pagination li.page.active {
+    background-color: #689CC7;
+}
+
+#pagination li.three-dot {
+    width: 11%;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 16px;
+}
+
+.no-result {
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 4rem 0 7rem;
+}
+
+#pagination a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#pagination li.page a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#pagination .prev {
+    width: 237px;
+    height: 56px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+#pagination .next {
+    width: 237px;
+    height: 56px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+#sort-by-company-label {
+    width: 226px;
+}
+
+.dropdown-menu a {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-family: Inter !important;
+    padding: 8px !important;
+    font-size: 15px;
+}
+
+#sort-by-company-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+#sort-by-country-label {
+    width: 226px;
+}
+
+#sort-by-country-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.selected {
+    background-color: #eeeeee !important;
+}
+
+.user:first-child {
+    margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+    .users {
+        border-radius: 10px;
+        background: #F3F3F3;
+        padding: 25px 35px;
+        margin-top: 0px;
+    }
+
+    .users .flex {
+        display: block;
+    }
+
+    .users .wrap {
+        padding-right: 0px;
+    }
+
+    .users h5 {
+        color: #000;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 22px;
+    }
+
+    .users p {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .users p a {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    .users p b {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .users img {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .search-bar {
+        margin-top: 24px;
+        height: 34px;
+        width: 100%;
+        border-radius: 17px;
+        background: #689CC7;
+        padding: 10px 27px;
+        display: flex;
+        align-items: center;
+    }
+
+    .controller {
+        padding: 20px 30px;
+        display: block;
+    }
+
+    .controller>.inline {
+        margin-bottom: 10px;
+    }
+
+    .controller .inline p {
+        color: #000;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-bottom: 1px solid #000;
+        display: inline;
+        margin: 0;
+        margin-right: 14px;
+    }
+
+    .controller .inline .button {
+        height: 26px;
+        border-radius: 3px;
+        border: 1px solid #000;
+        background: white;
+        position: relative;
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .controller .inline .button span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100%;
+    }
+
+    #user-list {
+        margin: 0;
+        padding-left: 0px;
+    }
+
+    #user-list .user .block div > a > img {
+        max-width: 173px;
+        object-fit: cover;
+    }
+
+    .user {
+        border-radius: 10px;
+        background: #F3F3F3;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+
+    .user .block {
+        display: block;
+    }
+
+    .user .block > div:first-child {
+        width: 50% !important;
+        height: 50% !important;
+        margin: auto;
+    }
+
+    .user .block div img {
+        width: auto;
+        height: 100%;
+    }
+
+    .user .wrap {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .user .wrap .name {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .user .wrap > div a {
+        margin-bottom: 10px;
+    }
+
+    .user .wrap .disabled {
+        color: #000;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .user p {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 7px;
+    }
+
+    .user .country {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 12px;
+        display: block;
+    }
+
+    .user .wrap > div {
+        width: 100px !important;
+        margin: auto;
+    }
+
+    .user .wrap > div img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #pagination {
+        padding: 20px 50px 70px;
+        position: relative;
+    }
+
+    #pagination li.page {
+        height: 36px;
+        width: 11.111111111111111111111111111111%;
+        margin: 0;
+        padding: 0;
+        border-radius: 3px;
+        border: 1px solid #000;
+        background: white;
+        position: relative;
+        cursor: pointer;
+    }
+
+    #pagination li.page a {
+        font-size: 12px;
+    }
+
+    #pagination a {
+        font-size: 13px;
+    }
+
+    #pagination .prev {
+        width: 87px;
+        height: 36px;
+        border-radius: 7px;
+        border: 1px solid #000;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 50px;
+        top: 74px;
+    }
+
+    #pagination .next {
+        width: 87px;
+        height: 36px;
+        border-radius: 7px;
+        border: 1px solid #000;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        right: 50px;
+        top: 74px;
+    }
+
+    #pagination li.three-dot {
+        padding-top: 9px;
+    }
+
+    #sort-by-company-label {
+        width: 100px;
+    }
+
+    .dropdown-menu a {
+        text-decoration: none !important;
+        color: #000 !important;
+        font-family: Inter !important;
+        padding: 4px !important;
+        font-size: 10px;
+    }
+
+    #sort-by-company-dropdown .dropdown-toggle::after {
+        display: none;
+    }
+
+    #sort-by-country-label {
+        width: 100px;
+    }
+
+    #sort-by-country-dropdown .dropdown-toggle::after {
+        display: none;
+    }
+
+    .no-result {
+        font-size: 12px !important;
+        margin: 2rem 0 3.5rem !important;
+    }
+}

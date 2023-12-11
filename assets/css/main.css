@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {}
+
+/* Media queries for other screen sizes if needed */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Add styles for medium-sized screens here */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Add styles for large-sized screens here */
+}

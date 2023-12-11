@@ -1,0 +1,20 @@
+---
+layout: profile
+title: Ranier Vilela
+bio: 
+country: 
+address: 
+image: /assets/img/user.png
+about: 
+github: 
+twitter:
+linkedin: 
+company: 
+mediaLink:
+detail: 
+thumbnailImage:
+lastUpdate: Nov 22, 2023
+multiYear: false
+---
+
+This is the body of Ranier Vilela's profile page.

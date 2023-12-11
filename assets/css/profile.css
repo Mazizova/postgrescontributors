@@ -1,0 +1,588 @@
+.profile {
+    border-radius: 15px;
+    background: #F3F3F3;
+    padding: 65px 65px;
+    margin-top: 55px;
+}
+
+.profile .wrap {
+    padding-right: 80px;
+}
+
+.profile h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 34px;
+}
+
+.profile p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.profile .country {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 34px;
+    display: block;
+}
+
+.profile b {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 19px;
+    display: block;
+}
+
+.profile p.about {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social {
+    padding: 35px 65px;
+}
+
+.social p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.disabled {
+    background: #8f9193 !important;
+}
+
+.social-btn {
+    width: 226px;
+    height: 46px;
+    border-radius: 6px;
+    background: #689CC7;
+    position: relative;
+    margin-right: 53px;
+    display: block;
+    text-decoration: none;
+}
+
+.social-btn span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+}
+
+
+.media {
+    border-radius: 15px;
+    background: #F3F3F3;
+    padding: 65px 65px;
+}
+
+.media .block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.media .block>img {
+    cursor: pointer;
+}
+
+.media .block>img:hover {
+    opacity: 0.7;
+}
+
+.media .wrap {
+    padding-left: 80px;
+}
+
+.media h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 60px 0 20px;
+}
+
+.media p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.media span {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.media .block .no-content {
+    color: #8F9193;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.media .block .grey-content {
+    color: #8F9193;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lastUpdate {
+    text-align: right;
+    margin-top: 61px;
+    margin-bottom: 70px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.githubText {
+    margin-bottom: 53px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.github {
+    width: 503px;
+    height: 52px;
+    border-radius: 15px 15px 0 0;
+    background: #FAAF40;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.github p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #262261;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.github p a {
+    color: #262261;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.github p a:hover {
+    color: #689CC7;
+}
+
+img.multi-year {
+    position: absolute;
+    top: -55px;
+    right: -28px;
+}
+
+/* Style for the popup dialog */
+.popup {
+    display: none;
+    position: fixed;
+    top: calc(50% - 211px);
+    right: 0px;
+    width: 422px;
+    height: 365px;
+    border-radius: 6px;
+    background: #FAAF40;
+    z-index: 1000;
+}
+
+.popup p {
+    color: #262261;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 91px;
+}
+
+.popup p a {
+    color: #262261;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* Style for the overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.close {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.github-icon {
+    margin: 47px auto 0;
+    display: block;
+}
+
+.profile .mobile {
+    display: none;
+}
+
+.back {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    display: block;
+    text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+    .back {
+        font-size: 11px;
+        font-style: normal;
+        margin-bottom: 30px;
+    }
+
+    .profile {
+        border-radius: 10px;
+        background: #F3F3F3;
+        padding: 35px 35px;
+        margin-top: 0px;
+    }
+
+    .profile>.flex {
+        display: none;
+    }
+
+    .profile .mobile {
+        display: block;
+    }
+
+    .profile h5 {
+        color: #000;
+        font-family: Inter;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 14px;
+    }
+
+    .profile p {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+
+    .profile .country {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .profile b {
+        color: #000;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 13px;
+        display: block;
+    }
+
+    .profile p.about {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .profile .mobile .profile-image {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .profile .mobile .multi-year {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social {
+        padding: 25px 5px;
+    }
+
+    .social p {
+        color: #000;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .social>.inline {
+        padding: 0 !important;
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    .social-btn {
+        width: 86px;
+        height: 36px;
+        border-radius: 6px;
+        background: #689CC7;
+        position: relative;
+        margin-right: 53px;
+        display: block;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .social-btn span {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 5px;
+    }
+
+    .linkedin img {
+        margin-left: 10px;
+    }
+
+    .media {
+        border-radius: 10px;
+        background: #F3F3F3;
+        padding: 35px 35px;
+        margin-top: -15px;
+    }
+
+    .media .block {
+        display: block;
+        width: 100%;
+    }
+
+    .media .block>img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .media .wrap {
+        padding-left: 0px;
+        margin-top: 25px;
+    }
+
+    .media h5 {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 35px 0 10px;
+    }
+
+    .media p {
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .media .block .no-content {
+        color: #8F9193;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .media .block .grey-content {
+        color: #8F9193;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .media span {
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .lastUpdate {
+        text-align: right;
+        margin-top: 21px;
+        margin-bottom: 40px;
+        color: #000;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .github {
+        width: 80%;
+        height: 32px;
+        border-radius: 10px 10px 0 0;
+        background: #FAAF40;
+        margin: auto;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .github p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #262261;
+        text-align: center;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .github p img {
+        width: 12px;
+        height: 12px;
+        margin-right: 8px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .github p a {
+        color: #262261;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+
+    .githubText {
+        margin-bottom: 23px;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .profile .wrap {
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
+}
