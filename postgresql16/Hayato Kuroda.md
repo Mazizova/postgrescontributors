@@ -1,19 +1,19 @@
 ---
 layout: profile
 title: Hayato Kuroda
-bio: 
-country: 
-address: 
+bio: Software Developer
+country: Japan
+address: Japan
 image: /assets/img/user.png
 about: 
 twitter:
-github: ""
+github: "https://github.com/HUUTFJ"
 linkedin:
-company: 
+company: Fujitsu
 mediaLink:
 detail: 
 thumbnailImage:
-lastUpdate: Nov 20, 2023
+lastUpdate: Dec 13, 2023
 multiYear: true
 ---
 
