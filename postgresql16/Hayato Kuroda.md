@@ -4,7 +4,7 @@ title: Hayato Kuroda
 bio: Software Developer
 country: Japan
 address: Japan
-image: /assets/img/user.png
+image: /assets/img/hayato_kuroda.png
 about: 
 twitter:
 github: "https://github.com/HUUTFJ"
