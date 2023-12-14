@@ -1,19 +1,19 @@
 ---
 layout: profile
 title: Josef Simanek
-bio: 
-country: 
-address: 
-image: /assets/img/user.png
+bio:
+country: Czech Republic
+address: Czech Republic
+image: /assets/img/josef-simanek.png
 about:
-github:
-twitter: 
+github: https://github.com/simi
+twitter: https://twitter.com/retrorubies
 linkedin:
-company: 
+company: self
 mediaLink:
 detail:
 thumbnailImage:
-lastUpdate: Nov 21, 2023
+lastUpdate: Dec 14, 2023
 multiYear: true
 ---
 
