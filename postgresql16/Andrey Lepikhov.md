@@ -4,7 +4,7 @@ title: Andrei Lepikhov
 bio: Software Developer & Engineer
 country: Thailand
 address: Pattaya
-image: /assets/img/andrey-lepikhov.png
+image: /assets/img/andrei-lepikhov.jpg
 mediaLink: 
 about: Computer scientist, PhD in distributed databases (parallel query execution). From 2017 work for designing extensions and core features based on PostgreSQL.
 twitter: "https://twitter.com/avlepikhov"
