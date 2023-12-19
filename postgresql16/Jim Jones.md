@@ -4,7 +4,7 @@ title: Jim Jones
 bio: Database Architect
 country: Germany
 address: Germany
-image: /assets/img/jim-jones.png
+image: /assets/img/jim-jones.jpg
 about: "Database Architect and Software Engineer with an academic backround in GIS (Geographic Information Systems). Research Interests: Semantic Web, Relational Databases, Geographic Databases, Graph Databases, Ontology Engineering, Digital Humanities."
 github: "https://github.com/jimjonesbr"
 twitter: 
