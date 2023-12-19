@@ -1,11 +1,11 @@
 ---
 layout: profile
 title: Jim Jones
-bio: Research Associate
+bio: Database Architect
 country: Germany
 address: Germany
 image: /assets/img/jim-jones.png
-about: "PostgreSQL Database Administrator: Design, Deployment, Maintenance, Query Tuning, SQL and PL/pgSQL Scripting, Database Monitoring, Backup, Disaster Recovery. Fields of research: Linked Data, Linked Geographic Data, Relational Databases, Geographic Databases, Ontology, Engineering, Digital Humanities."
+about: "Database Architect and Software Engineer with an academic backround in GIS (Geographic Information Systems). Research Interests: Semantic Web, Relational Databases, Geographic Databases, Graph Databases, Ontology Engineering, Digital Humanities."
 github: "https://github.com/jimjonesbr"
 twitter: 
 linkedin: "https://www.linkedin.com/in/jim-jones-6a32a4122/"
@@ -13,7 +13,7 @@ company: University of Münster
 mediaLink:
 detail: 
 thumbnailImage:
-lastUpdate: Nov 21, 2023
+lastUpdate: Dec 19, 2023
 multiYear: false
 ---
 
