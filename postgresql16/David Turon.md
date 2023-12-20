@@ -4,16 +4,16 @@ title: David Turon
 bio: Software Developer
 country: Czech Republic
 address: Czech Republic
-image: /assets/img/user.png
-about:
+image: /assets/img/david-turon.png
+about: "PostgreSQL enthusiast with more than 15 years positive experience with PostgreSQL and their amazing community. As developer & DBA working with SQL,PLpgSQL,PLPython."
 twitter:
-github:
+github: "https://github.com/dturon"
 linkedin: "https://www.linkedin.com/in/david-turo%C5%88-3b1bb08b/"
 company: LinuxBox.cz
 mediaLink:
 detail: 
 thumbnailImage:
-lastUpdate: Nov 17, 2023
+lastUpdate: Dec 13, 2023
 multiYear: false
 ---
 
