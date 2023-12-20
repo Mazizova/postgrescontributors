@@ -5,15 +5,15 @@ bio: Founder
 country: United States
 address: United States
 image: /assets/img/nikolay-samokhvalov.png
-about: "I chose Computer Science and, particularly, Databases specialization almost in the beginning – and stick to it, without regrets. Databases are at heart of nearly any computer system!"
+about: "PostgresAI founder / PostgresFM co-host"
 github: "https://github.com/NikolayS"
-twitter:
+twitter: "https://x.com/samokhvalov"
 linkedin: "https://www.linkedin.com/in/samokhvalov/"
-company: Database Lab
+company: Postgres.ai
 mediaLink:
 detail: 
 thumbnailImage:
-lastUpdate: Nov 21, 2023
+lastUpdate: Dec 14, 2023
 multiYear: true
 ---
 
