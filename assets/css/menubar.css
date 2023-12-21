@@ -95,7 +95,7 @@ p.sponsoredBy {
 
 @media (max-width: 767px) {
     .menubar {
-        padding: 10px 0 10px;
+        padding: 20px 0 20px;
     }
 
     .menubar>.flex {

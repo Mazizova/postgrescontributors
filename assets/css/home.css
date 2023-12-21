@@ -7,7 +7,7 @@
 }
 
 .welcome .content {
-    width: 509px;
+    width: 900px;
 }
 
 .welcome .content .bold {
@@ -27,7 +27,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.welcome .content .normal.gap {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
 }
 
 .welcome .content .normal a {
@@ -243,11 +253,64 @@
     text-decoration: none;
 }
 
+.brand {
+    margin-top: 55px;
+}
+
+p.sponsoredBy {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.ferretDB-logo {
+    cursor: pointer;
+    margin-bottom: 7px;
+    height: 74px;
+}
+
+.brand .letter {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 730px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.brand .letter a {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.brand .letter a:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
 .reward {
     border-radius: 15px;
     background: #F3F3F3;
     padding: 42px 65px;
     margin-top: 55px;
+    margin-bottom: 100px;
 }
 
 .reward .flex h5 {
@@ -268,7 +331,6 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 40px;
-    max-width: 70%;
 }
 
 .reward .flex span {
@@ -281,6 +343,9 @@
     display: block;
 }
 
+.reward .button {
+    margin: 40px 0 0;
+}
 
 @media (max-width: 767px) {
     .welcome {
@@ -314,6 +379,17 @@
         width: 100%;
     }
 
+    .welcome .content .normal.gap {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
     .welcome .content .normal a {
         color: #000;
         font-family: Inter;
@@ -323,7 +399,7 @@
         line-height: normal;
         margin-bottom: 25px;
     }
-    
+
 
     .welcome .elephant {
         width: 150px;
@@ -482,7 +558,7 @@
     }
 
     .mobile {
-        display: block!important;
+        display: block !important;
     }
 
     .function .mobile img {
@@ -549,6 +625,7 @@
         background: #F3F3F3;
         padding: 22px 32px;
         margin-top: 35px;
+        margin-bottom: 35px;
     }
 
     .reward .flex {
@@ -590,9 +667,56 @@
         display: block;
         margin: 1.5rem auto 0;
     }
+
+    .brand {
+        margin-top: 45px;
+    }
+
+    .brand .letter {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+    .brand .letter a {
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .brand .letter a:hover {
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+
+    .brand p.sponsoredBy {
+        font-size: 14px;
+    }
+
+
+    .brand .ferretDB-logo {
+        cursor: pointer;
+        margin-bottom: 7px;
+        height: 44px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1426px) {
+
     /* Add styles for large-sized screens here */
     .function {
         border-radius: 10px;
