@@ -11,3 +11,4 @@ A diverse and talented group of 362 contributors have shared their time, knowled
 - [Claim your contributor reward](https://postgrescontributorstore.myshopify.com/)
 
 
+bundle exec jekyll serve
